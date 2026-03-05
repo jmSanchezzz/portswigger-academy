@@ -57,7 +57,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | :--- | :--- | :---: | :---: |
 | Apprentice | Reflected XSS into HTML (No encoding) | ✅ Pwned | [📝](./writeups/xss/1_reflected_XSS_into_HTML_context_with_nothing_encoded/README.md) |
 | Apprentice | Stored XSS into HTML (No encoding) | ✅ Pwned | [📝](./writeups/xss/2_stored_XSS_into_HTML_context_with_nothing_encoded/README.md) |
-| Apprentice | DOM XSS in `document.write` sink | ⬜ Not Pwned | [📝](#) |
+| Apprentice | DOM XSS in `document.write` sink |✅ Pwned | [📝](./writeups/xss/3_DOM_XSS_in_document.write_sink_using_source_location.search/README.md) |
 | Practitioner | Exploiting XSS to steal cookies | ⬜ Not Pwned | [📝](#) |
 | Expert | Reflected XSS with sandbox escape | ⬜ Not Pwned | [📝](#) |
 </details>
