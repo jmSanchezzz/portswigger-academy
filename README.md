@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-5%2F245%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-6%2F245%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -16,7 +16,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 3 / 30 | In Progress |
 | [CSRF](#3-cross-site-request-forgery-12-labs) | 0 / 12 | Not Started |
 | [OS Command Injection](#4-os-command-injection-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **5 / 245** | **2%** |
+| **Total Academy Progress** | **6 / 245** | **2%** |
 
 ---
 
