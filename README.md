@@ -83,10 +83,3 @@ A systematic roadmap to mastering web application security. This repository trac
 </details>
 
 ---
-
-## The Pentester's Kit
-* **Proxy:** Burp Suite Professional / Community
-* **Browser:** Firefox (with FoxyProxy)
-* **Extensions:** Turbo Intruder, Hackvertor, Param Miner
-
----
