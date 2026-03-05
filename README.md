@@ -8,19 +8,19 @@ A systematic roadmap to mastering web application security. This repository trac
 
 ---
 
-## Progress Dashboard
+## 📊 Progress Dashboard
 
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
-| [SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress |
-| [Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 2 / 30 | In Progress |
-| [CSRF](#3-cross-site-request-forgery-12-labs) | 0 / 12 | Not Started |
-| [OS Command Injection](#4-os-command-injection-5-labs) | 0 / 5 | Not Started |
+| [SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | 🚧 In Progress |
+| [Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 3 / 30 | 🚧 In Progress |
+| [CSRF](#3-cross-site-request-forgery-12-labs) | 0 / 12 | 🌑 Not Started |
+| [OS Command Injection](#4-os-command-injection-5-labs) | 0 / 5 | 🌑 Not Started |
 | **Total Academy Progress** | **5 / 245** | **2%** |
 
 ---
 
-## Vulnerability List & Lab Tracker
+## 🛡️ Vulnerability List & Lab Tracker
 
 <details>
 <summary><b>1. SQL Injection (18 Labs) </b></summary>
@@ -53,13 +53,41 @@ A systematic roadmap to mastering web application security. This repository trac
 <details>
 <summary><b>2. Cross-Site Scripting (XSS) (30 Labs) </b></summary>
 
+> **Description:** Injecting malicious scripts into trusted websites.
+> **Impact:** Session hijacking, phishing, or unauthorized actions.
+
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Reflected XSS into HTML (No encoding) | ✅ Pwned | [📝](./writeups/xss/1_reflected_XSS_into_HTML_context_with_nothing_encoded/README.md) |
-| Apprentice | Stored XSS into HTML (No encoding) | ✅ Pwned | [📝](./writeups/xss/2_stored_XSS_into_HTML_context_with_nothing_encoded/README.md) |
-| Apprentice | DOM XSS in `document.write` sink |✅ Pwned | [📝](./writeups/xss/3_DOM_XSS_in_document.write_sink_using_source_location.search/README.md) |
-| Practitioner | Exploiting XSS to steal cookies | ⬜ Not Pwned | [📝](#) |
-| Expert | Reflected XSS with sandbox escape | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Reflected XSS into HTML context with nothing encoded | ✅ Pwned | [📝](./writeups/xss/1_reflected_XSS_into_HTML_context_with_nothing_encoded/README.md) |
+| Apprentice | Stored XSS into HTML context with nothing encoded | ✅ Pwned | [📝](./writeups/xss/2_stored_XSS_into_HTML_context_with_nothing_encoded/README.md) |
+| Apprentice | DOM XSS in `document.write` sink using source `location.search` | ✅ Pwned | [📝](./writeups/xss/3_DOM_XSS_in_document.write_sink_using_source_location.search/README.md) |
+| Apprentice | DOM XSS in `innerHTML` sink using source `location.search` | ⬜ Not Pwned | [📝](#) |
+| Apprentice | DOM XSS in jQuery anchor `href` attribute sink using `location.search` source | ⬜ Not Pwned | [📝](#) |
+| Apprentice | DOM XSS in jQuery selector sink using a hashchange event | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Reflected XSS into attribute with angle brackets HTML-encoded | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Stored XSS into anchor `href` attribute with double quotes HTML-encoded | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Reflected XSS into a JavaScript string with angle brackets HTML encoded | ⬜ Not Pwned | [📝](#) |
+| Practitioner | DOM XSS in `document.write` sink using source `location.search` inside a select element | ⬜ Not Pwned | [📝](#) |
+| Practitioner | DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected DOM XSS | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Stored DOM XSS | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected XSS into HTML context with most tags and attributes blocked | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected XSS into HTML context with all tags blocked except custom ones | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected XSS with some SVG markup allowed | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected XSS in canonical link tag | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected XSS into a JavaScript string with single quote and backslash escaped | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Stored XSS into `onclick` event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting cross-site scripting to steal cookies | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting cross-site scripting to capture passwords | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting XSS to bypass CSRF defenses | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Reflected XSS protected by very strict CSP, with dangling markup attack | ⬜ Not Pwned | [📝](#) |
+| Expert | Reflected XSS with AngularJS sandbox escape without strings | ⬜ Not Pwned | [📝](#) |
+| Expert | Reflected XSS with AngularJS sandbox escape and CSP | ⬜ Not Pwned | [📝](#) |
+| Expert | Reflected XSS with event handlers and `href` attributes blocked | ⬜ Not Pwned | [📝](#) |
+| Expert | Reflected XSS in a JavaScript URL with some characters blocked | ⬜ Not Pwned | [📝](#) |
+| Expert | Reflected XSS protected by CSP, with CSP bypass | ⬜ Not Pwned | [📝](#) |
 </details>
 
 <details>
