@@ -30,5 +30,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "📈 Auto-update progress metrics"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update progress metrics"
           git push
