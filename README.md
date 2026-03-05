@@ -8,19 +8,19 @@ A systematic roadmap to mastering web application security. This repository trac
 
 ---
 
-## 📊 Progress Dashboard
+## Progress Dashboard
 
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
-| [SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | 🚧 In Progress |
-| [Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 3 / 30 | 🚧 In Progress |
-| [CSRF](#3-cross-site-request-forgery-12-labs) | 0 / 12 | 🌑 Not Started |
-| [OS Command Injection](#4-os-command-injection-5-labs) | 0 / 5 | 🌑 Not Started |
+| [SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress |
+| [Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 3 / 30 | In Progress |
+| [CSRF](#3-cross-site-request-forgery-12-labs) | 0 / 12 | Not Started |
+| [OS Command Injection](#4-os-command-injection-5-labs) | 0 / 5 | Not Started |
 | **Total Academy Progress** | **5 / 245** | **2%** |
 
 ---
 
-## 🛡️ Vulnerability List & Lab Tracker
+## Vulnerability List & Lab Tracker
 
 <details>
 <summary><b>1. SQL Injection (18 Labs) </b></summary>
