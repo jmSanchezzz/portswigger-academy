@@ -13,10 +13,10 @@ A systematic roadmap to mastering web application security. This repository trac
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
 | [SQL Injection](#1-sql-injection) | 2 / 18 | In Progress |
-| [Cross-Site Scripting (XSS)](#2-cross-site-scripting) | 0 / 30 | Not Started |
+| [Cross-Site Scripting (XSS)](#2-cross-site-scripting) | 1 / 30 | In Progress |
 | [CSRF](#3-cross-site-request-forgery) | 0 / 12 | Not Started |
 | [OS Command Injection](#4-os-command-injection) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **2 / 245** | **0%** |
+| **Total Academy Progress** | **3 / 245** | **0%** |
 
 ---
 
@@ -55,7 +55,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Reflected XSS into HTML (No encoding) | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Reflected XSS into HTML (No encoding) | ✅ Pwned | [📝](./writeups/xss/1_reflected_XSS_into_HTML_context_with_nothing_encoded/README.md) |
 | Apprentice | Stored XSS into HTML (No encoding) | ⬜ Not Pwned | [📝](#) |
 | Apprentice | DOM XSS in `document.write` sink | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Exploiting XSS to steal cookies | ⬜ Not Pwned | [📝](#) |
