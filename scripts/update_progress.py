@@ -32,11 +32,11 @@ for dash_name, section_title, total_labs in categories:
 
         # Auto-determine the status emoji
         if pwned_count == total_labs:
-            status = "🏆 Mastered"
+            status = "Mastered"
         elif pwned_count > 0:
-            status = "🚧 In Progress"
+            status = "In Progress"
         else:
-            status = "🌑 Not Started"
+            status = "Not Started"
 
         # Update the specific row in the Dashboard table (preserves your anchor links)
         row_pattern = rf'(\|\s*\[{re.escape(dash_name)}\]\([^)]+\)\s*\|\s*)\d+(\s*/\s*{total_labs}\s*\|\s*)[^|]+(\s*\|)'
@@ -60,3 +60,4 @@ with open(readme_path, 'w', encoding='utf-8') as file:
     file.write(content)
 
 print(f"✅ Auto-update complete: {total_pwned}/245 ({percentage}%) overall.")
+
