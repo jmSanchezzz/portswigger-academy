@@ -30,7 +30,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | SQLi in WHERE clause (Hidden data) | ⬜ Not Pwned | [📝](writeups/sql-injection/1_SQL injection vulnerability in WHERE clause allowing retrieval of hidden data/README.md) |
+| Apprentice | SQLi in WHERE clause (Hidden data) | ⬜ Not Pwned | [📝](./writeups/sql-injection/1_SQL_injection_vulnerability_in_WHERE_clause_allowing_retrieval_of_hidden_data/README.md) |
 | Apprentice | SQLi allowing login bypass | ⬜ Not Pwned | [📝](#) |
 | Practitioner | SQLi querying DB type/version (Oracle) | ⬜ Not Pwned | [📝](#) |
 | Practitioner | SQLi querying DB type/version (MySQL/MS) | ⬜ Not Pwned | [📝](#) |
