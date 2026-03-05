@@ -12,11 +12,11 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
-| [SQL Injection](#1-sql-injection) | 0 / 18 | 🌑 Not Started |
-| [Cross-Site Scripting (XSS)](#2-cross-site-scripting) | 0 / 30 | 🌑 Not Started |
-| [CSRF](#3-cross-site-request-forgery) | 0 / 12 | 🌑 Not Started |
-| [OS Command Injection](#4-os-command-injection) | 0 / 5 | 🌑 Not Started |
-| **Total Academy Progress** | **0 / 245** | **0%** |
+| [SQL Injection](#1-sql-injection) | 2 / 18 | In Progress |
+| [Cross-Site Scripting (XSS)](#2-cross-site-scripting) | 0 / 30 | Not Started |
+| [CSRF](#3-cross-site-request-forgery) | 0 / 12 | Not Started |
+| [OS Command Injection](#4-os-command-injection) | 0 / 5 | Not Started |
+| **Total Academy Progress** | **2 / 245** | **0%** |
 
 ---
 
