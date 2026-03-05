@@ -65,7 +65,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Apprentice | DOM XSS in jQuery anchor `href` attribute sink using `location.search` source |  ✅ Pwned | [📝](./writeups/xss/5_DOM_XSS_in_jQuery_anchor_href_attribute_sink_using_location.search_source/README.md) |
 | Apprentice | DOM XSS in jQuery selector sink using a hashchange event |✅ Pwned | [📝](./writeups/xss/6_DOM_XSS_in_jQuery_selector_sink_using_a_hashchange_event/README.md) |
 | Apprentice | Reflected XSS into attribute with angle brackets HTML-encoded |✅ Pwned | [📝](./writeups/xss/7_Reflected_XSS_into_attribute_with_angle_brackets_HTML-encoded/README.md) |
-| Apprentice | Stored XSS into anchor `href` attribute with double quotes HTML-encoded | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Stored XSS into anchor `href` attribute with double quotes HTML-encoded | ✅ Pwned | [📝](./writeups/xss/8_stored_XSS_into_anchor_href_attribute_with_double_quotes_HTML-encoded/README.md) |
 | Apprentice | Reflected XSS into a JavaScript string with angle brackets HTML encoded | ⬜ Not Pwned | [📝](#) |
 | Practitioner | DOM XSS in `document.write` sink using source `location.search` inside a select element | ⬜ Not Pwned | [📝](#) |
 | Practitioner | DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | ⬜ Not Pwned | [📝](#) |
