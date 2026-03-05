@@ -61,7 +61,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Apprentice | Reflected XSS into HTML context with nothing encoded | ✅ Pwned | [📝](./writeups/xss/1_reflected_XSS_into_HTML_context_with_nothing_encoded/README.md) |
 | Apprentice | Stored XSS into HTML context with nothing encoded | ✅ Pwned | [📝](./writeups/xss/2_stored_XSS_into_HTML_context_with_nothing_encoded/README.md) |
 | Apprentice | DOM XSS in `document.write` sink using source `location.search` | ✅ Pwned | [📝](./writeups/xss/3_DOM_XSS_in_document.write_sink_using_source_location.search/README.md) |
-| Apprentice | DOM XSS in `innerHTML` sink using source `location.search` | ⬜ Not Pwned | [📝](#) |
+| Apprentice | DOM XSS in `innerHTML` sink using source `location.search` | ✅ Pwned | [📝](./writeups/xss/4_DOM_XSS_in_innerHTML_sink_using_source_location.search/README.md) |
 | Apprentice | DOM XSS in jQuery anchor `href` attribute sink using `location.search` source | ⬜ Not Pwned | [📝](#) |
 | Apprentice | DOM XSS in jQuery selector sink using a hashchange event | ⬜ Not Pwned | [📝](#) |
 | Apprentice | Reflected XSS into attribute with angle brackets HTML-encoded | ⬜ Not Pwned | [📝](#) |
