@@ -62,8 +62,8 @@ A systematic roadmap to mastering web application security. This repository trac
 | Apprentice | Stored XSS into HTML context with nothing encoded | ✅ Pwned | [📝](./writeups/xss/2_stored_XSS_into_HTML_context_with_nothing_encoded/README.md) |
 | Apprentice | DOM XSS in `document.write` sink using source `location.search` | ✅ Pwned | [📝](./writeups/xss/3_DOM_XSS_in_document.write_sink_using_source_location.search/README.md) |
 | Apprentice | DOM XSS in `innerHTML` sink using source `location.search` | ✅ Pwned | [📝](./writeups/xss/4_DOM_XSS_in_innerHTML_sink_using_source_location.search/README.md) |
-| Apprentice | DOM XSS in jQuery anchor `href` attribute sink using `location.search` source |  ✅ Pwned | [📝](./writeups/xss/5_DOM_XSS_in_jQuery_anchor_href_attribute_sink_using_location.search_sourceREADME.md) |
-| Apprentice | DOM XSS in jQuery selector sink using a hashchange event | ⬜ Not Pwned | [📝](#) |
+| Apprentice | DOM XSS in jQuery anchor `href` attribute sink using `location.search` source |  ✅ Pwned | [📝](./writeups/xss/5_DOM_XSS_in_jQuery_anchor_href_attribute_sink_using_location.search_source/README.md) |
+| Apprentice | DOM XSS in jQuery selector sink using a hashchange event |✅ Pwned | [📝](./writeups/xss/5_DOM_XSS_in_jQuery_selector_sink_using_a_hashchange_event/README.md) |
 | Apprentice | Reflected XSS into attribute with angle brackets HTML-encoded | ⬜ Not Pwned | [📝](#) |
 | Apprentice | Stored XSS into anchor `href` attribute with double quotes HTML-encoded | ⬜ Not Pwned | [📝](#) |
 | Apprentice | Reflected XSS into a JavaScript string with angle brackets HTML encoded | ⬜ Not Pwned | [📝](#) |
