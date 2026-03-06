@@ -159,7 +159,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | CORS vulnerability with basic origin reflection | ⬜ Not Pwned | [📝](#) |
+| Apprentice | CORS vulnerability with basic origin reflection | ✅ Pwned | [📝](./writeups/cors/1_CORS_vulnerability_with_basic_origin_reflection/README.md) |
 | Apprentice | CORS vulnerability with trusted null origin | ⬜ Not Pwned | [📝](#) |
 | Practitioner | CORS vulnerability with trusted insecure protocols | ⬜ Not Pwned | [📝](#) |
 </details>
