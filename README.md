@@ -8,7 +8,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 ---
 
-## 📊 Progress Dashboard
+## Progress Dashboard
 
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
@@ -47,7 +47,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 ---
 
-## 🛡️ Vulnerability List & Lab Tracker
+## Vulnerability List & Lab Tracker
 
 <details>
 <summary><b>1. SQL Injection (18 Labs) </b></summary>
