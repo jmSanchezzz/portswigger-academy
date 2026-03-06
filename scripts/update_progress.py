@@ -9,12 +9,12 @@ TOTAL_LABS = 251
 CATEGORY_MAP = {
     "sql-injection": "1. SQL Injection",
     "xss": "2. Cross-Site Scripting (XSS)",
-    "csrf": "3. Cross-Site Request Forgery (CSRF)",
+    "csrf": "3. CSRF",
     "clickjacking": "4. Clickjacking",
     "dom-vulnerabilities": "5. DOM-based vulnerabilities",
-    "cors": "6. Cross-origin resource sharing (CORS)",
-    "xxe": "7. XML external entity (XXE) injection",
-    "ssrf": "8. Server-side request forgery (SSRF)",
+    "cors": "6. CORS",
+    "xxe": "7. XXE Injection",
+    "ssrf": "8. SSRF",
     "command-injection": "10. OS command injection",
     "authentication": "14. Authentication"
 }
@@ -31,8 +31,11 @@ def get_writeups():
 
         labs = []
         for folder in os.listdir(path):
-            if folder.startswith("."):
+            lab_path = os.path.join(path, folder)
+            
+            if folder.startswith(".") or not os.path.isdir(lab_path):
                 continue
+            
             labs.append(folder)
             
         solved[category] = labs
@@ -41,12 +44,10 @@ def get_writeups():
 def update_lab_table(content, solved):
     for category, labs in solved.items():
         for lab in labs:
-            
             try:
                 lab_title = lab.split("_", 1)[1].replace("_", " ")
             except IndexError:
                 continue 
-            
             
             pattern = rf"\| (.*?) \| ({re.escape(lab_title)}) \| .*? \| .*? \|"
             replacement = f"| \\1 | \\2 | ✅ Pwned | [📝](./writeups/{category}/{lab}/README.md) |"
@@ -59,14 +60,12 @@ def update_dashboard(content, solved):
     total_solved = sum(len(labs) for labs in solved.values())
     percentage = int((total_solved / TOTAL_LABS) * 100)
 
-    
     content = re.sub(
         r"\*\*Total Academy Progress\*\* \| \*\*\d+ / 251\*\* \| \*\*\d+%\*\*",
         f"**Total Academy Progress** | **{total_solved} / 251** | **{percentage}%**",
         content
     )
 
-    
     content = re.sub(
         r"badge/Progress-\d+%2F251",
         f"badge/Progress-{total_solved}%2F251",
@@ -78,17 +77,17 @@ def update_category_counts(content, solved):
     for category in solved:
         count = len(solved[category])
         
-        
         pattern = rf"\|\s*\[(\d+\.\s*.*?)\]\(#.*?\)\s*\|\s*\d+\s*/\s*(\d+)\s*\|\s*(.*?)\|"
 
         def repl(match):
             title = match.group(1)
             total = match.group(2)
 
-            if CATEGORY_MAP.get(category) in title:
+            mapped_name = CATEGORY_MAP.get(category)
+
+            if mapped_name and mapped_name in title:
                 status = "Mastered" if count == int(total) else "In Progress" if count > 0 else "Not Started"
                 
-                # BUG FIX: Strip periods and format for GitHub markdown anchors safely
                 clean_anchor = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
                 
                 return f"| [{title}](#{clean_anchor}-{total}-labs) | {count} / {total} | {status} |"
@@ -116,4 +115,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
