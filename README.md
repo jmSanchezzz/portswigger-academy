@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-12%2F245%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-12%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -12,21 +12,44 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
-| [SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress|
-| [Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 9 / 30 | In Progress|
-| [CSRF](#3-cross-site-request-forgery-12-labs) | 1 / 12 | In Progress|
-| [OS Command Injection](#4-os-command-injection-5-labs) | 0 / 5 | Not Started|
-| **Total Academy Progress** | **12 / 245** | **4%** |
-
+| [1. SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress |
+| [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 9 / 30 | In Progress |
+| [3. CSRF](#3-cross-site-request-forgery-12-labs) | 1 / 12 | In Progress |
+| [4. Clickjacking](#4-clickjacking-5-labs) | 0 / 5 | Not Started |
+| [5. DOM-based vulnerabilities](#5-dom-based-vulnerabilities-7-labs) | 0 / 7 | Not Started |
+| [6. CORS](#6-cross-origin-resource-sharing-cors-3-labs) | 0 / 3 | Not Started |
+| [7. XXE Injection](#7-xml-external-entity-xxe-injection-9-labs) | 0 / 9 | Not Started |
+| [8. SSRF](#8-server-side-request-forgery-ssrf-7-labs) | 0 / 7 | Not Started |
+| [9. HTTP request smuggling](#9-http-request-smuggling-21-labs) | 0 / 21 | Not Started |
+| [10. OS command injection](#10-os-command-injection-5-labs) | 0 / 5 | Not Started |
+| [11. Server-side template injection](#11-server-side-template-injection-7-labs) | 0 / 7 | Not Started |
+| [12. Path traversal](#12-path-traversal-6-labs) | 0 / 6 | Not Started |
+| [13. Access control vulnerabilities](#13-access-control-vulnerabilities-13-labs) | 0 / 13 | Not Started |
+| [14. Authentication](#14-authentication-14-labs) | 0 / 14 | Not Started |
+| [15. WebSockets](#15-websockets-3-labs) | 0 / 3 | Not Started |
+| [16. Web cache poisoning](#16-web-cache-poisoning-13-labs) | 0 / 13 | Not Started |
+| [17. Insecure deserialization](#17-insecure-deserialization-10-labs) | 0 / 10 | Not Started |
+| [18. Information disclosure](#18-information-disclosure-5-labs) | 0 / 5 | Not Started |
+| [19. Business logic vulnerabilities](#19-business-logic-vulnerabilities-11-labs) | 0 / 11 | Not Started |
+| [20. HTTP Host header attacks](#20-http-host-header-attacks-7-labs) | 0 / 7 | Not Started |
+| [21. OAuth authentication](#21-oauth-authentication-6-labs) | 0 / 6 | Not Started |
+| [22. File upload vulnerabilities](#22-file-upload-vulnerabilities-7-labs) | 0 / 7 | Not Started |
+| [23. JWT](#23-jwt-8-labs) | 0 / 8 | Not Started |
+| [24. Essential skills](#24-essential-skills-2-labs) | 0 / 2 | Not Started |
+| [25. Prototype pollution](#25-prototype-pollution-10-labs) | 0 / 10 | Not Started |
+| [26. GraphQL API vulnerabilities](#26-graphql-api-vulnerabilities-5-labs) | 0 / 5 | Not Started |
+| [27. Race conditions](#27-race-conditions-6-labs) | 0 / 6 | Not Started |
+| [28. NoSQL injection](#28-nosql-injection-4-labs) | 0 / 4 | Not Started |
+| [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
+| [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
+| [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
+| **Total Academy Progress** | **12 / 251** | **4%** |
 ---
 
 ## Vulnerability List & Lab Tracker
 
 <details>
 <summary><b>1. SQL Injection (18 Labs) </b></summary>
-
-> **Description:** Manipulating backend SQL queries.
-> **Impact:** Data exfiltration, Authentication bypass.
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
@@ -52,9 +75,6 @@ A systematic roadmap to mastering web application security. This repository trac
 
 <details>
 <summary><b>2. Cross-Site Scripting (XSS) (30 Labs) </b></summary>
-
-> **Description:** Injecting malicious scripts into trusted websites.
-> **Impact:** Session hijacking, phishing, or unauthorized actions.
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
@@ -98,16 +118,91 @@ A systematic roadmap to mastering web application security. This repository trac
 | Apprentice | CSRF with no defenses | ✅ Pwned | [📝](./writeups/csrf/1_CSRF_vulnerability_with_no_defenses/README.md) |
 | Practitioner | CSRF (Token validation depends on method) | ⬜ Not Pwned | [📝](#) |
 | Practitioner | CSRF (Token not tied to session) | ⬜ Not Pwned | [📝](#) |
+| Practitioner | CSRF where token is tied to non-session cookie | ⬜ Not Pwned | [📝](#) |
+| Practitioner | CSRF where token is duplicated in cookie | ⬜ Not Pwned | [📝](#) |
+| Practitioner | SameSite Lax bypass via method override | ⬜ Not Pwned | [📝](#) |
+| Practitioner | SameSite Strict bypass via client-side redirect | ⬜ Not Pwned | [📝](#) |
+| Practitioner | SameSite Strict bypass via sibling domain | ⬜ Not Pwned | [📝](#) |
+| Practitioner | SameSite Lax bypass via cookie refresh | ⬜ Not Pwned | [📝](#) |
+| Practitioner | CSRF where Referer validation depends on header being present | ⬜ Not Pwned | [📝](#) |
+| Practitioner | CSRF with broken Referer validation | ⬜ Not Pwned | [📝](#) |
 </details>
 
 <details>
-<summary><b>4. OS Command Injection (5 Labs) </b></summary>
+<summary><b>4. Clickjacking (5 Labs) </b></summary>
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | OS command injection, simple case | ⬜ Not Pwned | [📝](#) |
-| Practitioner | Blind OS injection (Time delays) | ⬜ Not Pwned | [📝](#) |
-| Practitioner | Blind OS injection (Output redirection) | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Basic clickjacking with CSRF token protection | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Clickjacking with form input data prefilled from a URL parameter | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Clickjacking with a frame buster script | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting clickjacking vulnerability to trigger DOM-based XSS | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Multistep clickjacking | ⬜ Not Pwned | [📝](#) |
 </details>
 
----
+<details>
+<summary><b>5. DOM-based vulnerabilities (7 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Practitioner | DOM XSS using web messages | ⬜ Not Pwned | [📝](#) |
+| Practitioner | DOM XSS using web messages and a JavaScript URL | ⬜ Not Pwned | [📝](#) |
+| Practitioner | DOM XSS using web messages and JSON.parse | ⬜ Not Pwned | [📝](#) |
+| Practitioner | DOM-based open redirection | ⬜ Not Pwned | [📝](#) |
+| Practitioner | DOM-based cookie manipulation | ⬜ Not Pwned | [📝](#) |
+| Expert | Exploiting DOM clobbering to enable XSS | ⬜ Not Pwned | [📝](#) |
+| Expert | Clobbering DOM attributes to bypass HTML filters | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>6. Cross-origin resource sharing (CORS) (3 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | CORS vulnerability with basic origin reflection | ⬜ Not Pwned | [📝](#) |
+| Apprentice | CORS vulnerability with trusted null origin | ⬜ Not Pwned | [📝](#) |
+| Practitioner | CORS vulnerability with trusted insecure protocols | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>7. XML external entity (XXE) injection (9 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Exploiting XXE using external entities to retrieve files | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Exploiting XXE to perform SSRF attacks | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Blind XXE with out-of-band interaction | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Blind XXE with out-of-band interaction via XML parameter entities | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting blind XXE to exfiltrate data using a malicious external DTD | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting blind XXE to retrieve data via error messages | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting XInclude to retrieve files | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting XXE via image file upload | ⬜ Not Pwned | [📝](#) |
+| Expert | Exploiting XXE to retrieve data by repurposing a local DTD | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>8. Server-side request forgery (SSRF) (7 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Basic SSRF against the local server | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Basic SSRF against another back-end system | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Blind SSRF with out-of-band detection | ⬜ Not Pwned | [📝](#) |
+| Practitioner | SSRF with blacklist-based input filter | ⬜ Not Pwned | [📝](#) |
+| Practitioner | SSRF with filter bypass via open redirection vulnerability | ⬜ Not Pwned | [📝](#) |
+| Expert | Blind SSRF with Shellshock exploitation | ⬜ Not Pwned | [📝](#) |
+| Expert | SSRF with whitelist-based input filter | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>9. HTTP request smuggling (21 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Practitioner | HTTP request smuggling, confirming a CL.TE vulnerability via differential responses | ⬜ Not Pwned | [📝](#) |
+| Practitioner | HTTP request smuggling, confirming a TE.CL vulnerability via differential responses | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting HTTP request smuggling to reveal front-end request rewriting | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting HTTP request smuggling to capture other users' requests | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting HTTP request smuggling to deliver reflected XSS | ⬜ Not Pwn
