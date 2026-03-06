@@ -14,12 +14,12 @@ A systematic roadmap to mastering web application security. This repository trac
 | :--- | :---: | :--- |
 | [1. SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress |
 | [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-xss-30-labs) | 9 / 30 | In Progress |
-| [3. CSRF](#3-cross-site-request-forgery-12-labs) | 1 / 12 | In Progress |
+| [3. CSRF](#3-csrf-12-labs) | 1 / 12 | In Progress |
 | [4. Clickjacking](#4-clickjacking-5-labs) | 3 / 5 | In Progress |
 | [5. DOM-based vulnerabilities](#5-dom-based-vulnerabilities-7-labs) | 0 / 7 | Not Started |
-| [6. CORS](#6-cross-origin-resource-sharing-cors-3-labs) | 1 / 3 | In Progress |
-| [7. XXE Injection](#7-xml-external-entity-xxe-injection-9-labs) | 0 / 9 | Not Started |
-| [8. SSRF](#8-server-side-request-forgery-ssrf-7-labs) | 0 / 7 | Not Started |
+| [6. CORS](#6-cors-3-labs) | 2 / 3 | In Progress |
+| [7. XXE Injection](#7-xxe-injection-9-labs) | 0 / 9 | Not Started |
+| [8. SSRF](#8-ssrf-7-labs) | 0 / 7 | Not Started |
 | [9. HTTP request smuggling](#9-http-request-smuggling-21-labs) | 0 / 21 | Not Started |
 | [10. OS command injection](#10-os-command-injection-5-labs) | 0 / 5 | Not Started |
 | [11. Server-side template injection](#11-server-side-template-injection-7-labs) | 0 / 7 | Not Started |
