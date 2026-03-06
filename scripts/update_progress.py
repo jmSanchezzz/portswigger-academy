@@ -1,89 +1,131 @@
+import os
 import re
 
-readme_path = 'README.md'
+README = "README.md"
+WRITEUPS = "writeups"
 
-# 1. Read the current README
-with open(readme_path, 'r', encoding='utf-8') as file:
-    content = file.read()
+TOTAL_LABS = 251
 
-# 2. Define your categories (Dashboard Name, Section Title, Total Labs)
-categories = [
-    ("1. SQL Injection", "1. SQL Injection", 18),
-    ("2. Cross-Site Scripting (XSS)", "2. Cross-Site Scripting (XSS)", 30),
-    ("3. CSRF", "3. Cross-Site Request Forgery (CSRF)", 12),
-    ("4. Clickjacking", "4. Clickjacking", 5),
-    ("5. DOM-based vulnerabilities", "5. DOM-based vulnerabilities", 7),
-    ("6. CORS", "6. Cross-origin resource sharing (CORS)", 3),
-    ("7. XXE Injection", "7. XML external entity (XXE) injection", 9),
-    ("8. SSRF", "8. Server-side request forgery (SSRF)", 7),
-    ("9. HTTP request smuggling", "9. HTTP request smuggling", 21),
-    ("10. OS command injection", "10. OS command injection", 5),
-    ("11. Server-side template injection", "11. Server-side template injection", 7),
-    ("12. Path traversal", "12. Path traversal", 6),
-    ("13. Access control vulnerabilities", "13. Access control vulnerabilities", 13),
-    ("14. Authentication", "14. Authentication", 14),
-    ("15. WebSockets", "15. WebSockets", 3),
-    ("16. Web cache poisoning", "16. Web cache poisoning", 13),
-    ("17. Insecure deserialization", "17. Insecure deserialization", 10),
-    ("18. Information disclosure", "18. Information disclosure", 5),
-    ("19. Business logic vulnerabilities", "19. Business logic vulnerabilities", 11),
-    ("20. HTTP Host header attacks", "20. HTTP Host header attacks", 7),
-    ("21. OAuth authentication", "21. OAuth authentication", 6),
-    ("22. File upload vulnerabilities", "22. File upload vulnerabilities", 7),
-    ("23. JWT", "23. JWT", 8),
-    ("24. Essential skills", "24. Essential skills", 2),
-    ("25. Prototype pollution", "25. Prototype pollution", 10),
-    ("26. GraphQL API vulnerabilities", "26. GraphQL API vulnerabilities", 5),
-    ("27. Race conditions", "27. Race conditions", 6),
-    ("28. NoSQL injection", "28. NoSQL injection", 4),
-    ("29. API testing", "29. API testing", 5),
-    ("30. Web LLM attacks", "30. Web LLM attacks", 4),
-    ("31. Web cache deception", "31. Web cache deception", 5)
-]
+CATEGORY_MAP = {
+    "sql-injection": "SQL Injection",
+    "xss": "Cross-Site Scripting",
+    "csrf": "CSRF",
+    "clickjacking": "Clickjacking",
+    "dom-vulnerabilities": "DOM-based vulnerabilities",
+    "cors": "CORS",
+    "xxe": "XXE",
+    "ssrf": "SSRF",
+    "command-injection": "OS command injection"
+}
 
-total_pwned = 0
-total_all_labs = 251
+def get_writeups():
+    solved = {}
 
-# 3. Process each category individually
-for dash_name, section_title, total_labs in categories:
-    # Use Regex to isolate the block between the <summary> and </details> for this category
-    section_pattern = rf'<summary><b>{re.escape(section_title)}.*?</details>'
-    section_match = re.search(section_pattern, content, re.DOTALL)
+    for category in os.listdir(WRITEUPS):
 
-    if section_match:
-        section_text = section_match.group(0)
-        
-        # Count the Pwned tags only inside this specific section
-        pwned_count = section_text.count('✅ Pwned')
-        total_pwned += pwned_count
+        path = os.path.join(WRITEUPS, category)
 
-        # Auto-determine the status (Emojis removed)
-        if pwned_count == total_labs:
-            status = "Mastered"
-        elif pwned_count > 0:
-            status = "In Progress"
-        else:
-            status = "Not Started"
+        if not os.path.isdir(path):
+            continue
 
-        # Update the specific row in the Dashboard table (preserves your anchor links)
-        row_pattern = rf'(\|\s*\[{re.escape(dash_name)}\]\([^)]+\)\s*\|\s*)\d+(\s*/\s*{total_labs}\s*\|\s*)[^|]+(\s*\|)'
-        replacement = rf'\g<1>{pwned_count}\g<2>{status}\g<3>'
-        content = re.sub(row_pattern, replacement, content)
+        labs = []
 
-# 4. Calculate overall percentage
-percentage = int((total_pwned / total_all_labs) * 100)
+        for folder in os.listdir(path):
 
-# 5. Update the Grand Total Row
-total_pattern = r'(\|\s*\*\*Total Academy Progress\*\*\s*\|\s*\*\*)\d+(\s*/\s*251\*\*\s*\|\s*\*\*)\d+(%\*\*\s*\|)'
-content = re.sub(total_pattern, rf'\g<1>{total_pwned}\g<2>{percentage}\g<3>', content)
+            if folder.startswith("."):
+                continue
 
-# 6. Update the Top Badge
-badge_pattern = r'badge/Progress-\d+%2F251'
-new_badge = f'badge/Progress-{total_pwned}%2F251'
-content = re.sub(badge_pattern, new_badge, content)
+            labs.append(folder)
 
-# 7. Write all changes back to the README
-with open(readme_path, 'w', encoding='utf-8') as file:
-    file.write(content)
+        solved[category] = labs
 
-print(f"✅ Auto-update complete: {total_pwned}/251 ({percentage}%) overall.")
+    return solved
+
+
+def update_lab_table(content, solved):
+
+    for category, labs in solved.items():
+
+        for lab in labs:
+
+            lab_title = lab.split("_",1)[1].replace("_"," ")
+
+            pattern = rf"\| (.*?) \| {re.escape(lab_title)} \| ⬜ Not Pwned \| \[📝\]\(#\) \|"
+
+            replacement = f"| \\1 | {lab_title} | ✅ Pwned | [📝](./writeups/{category}/{lab}/README.md) |"
+
+            content = re.sub(pattern, replacement, content)
+
+    return content
+
+
+def update_dashboard(content, solved):
+
+    total_solved = 0
+
+    for category in solved:
+
+        total_solved += len(solved[category])
+
+    percentage = int((total_solved / TOTAL_LABS) * 100)
+
+    content = re.sub(
+        r"\*\*Total Academy Progress\*\* \| \*\*\d+ / 251\*\* \| \*\*\d+%\*\*",
+        f"**Total Academy Progress** | **{total_solved} / 251** | **{percentage}%**",
+        content
+    )
+
+    content = re.sub(
+        r"badge/Progress-\d+%2F251",
+        f"badge/Progress-{total_solved}%2F251",
+        content
+    )
+
+    return content
+
+
+def update_category_counts(content, solved):
+
+    for category in solved:
+
+        count = len(solved[category])
+
+        pattern = rf"\|\s*\[(\d+\. .*?)\]\(#.*?\)\s*\|\s*\d+\s*/\s*(\d+)\s*\|\s*(.*?)\|"
+
+        def repl(match):
+
+            title = match.group(1)
+            total = match.group(2)
+
+            if CATEGORY_MAP.get(category) in title:
+
+                status = "Mastered" if count == int(total) else "In Progress" if count > 0 else "Not Started"
+
+                return f"| [{title}](#{title.lower().replace(' ','-')}-{total}-labs) | {count} / {total} | {status}|"
+
+            return match.group(0)
+
+        content = re.sub(pattern, repl, content)
+
+    return content
+
+
+def main():
+
+    with open(README,"r",encoding="utf-8") as f:
+        content = f.read()
+
+    solved = get_writeups()
+
+    content = update_lab_table(content, solved)
+    content = update_category_counts(content, solved)
+    content = update_dashboard(content, solved)
+
+    with open(README,"w",encoding="utf-8") as f:
+        f.write(content)
+
+    print("README progress updated successfully")
+
+
+if __name__ == "__main__":
+    main()
