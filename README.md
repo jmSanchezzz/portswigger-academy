@@ -135,7 +135,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | :--- | :--- | :---: | :---: |
 | Apprentice | Basic clickjacking with CSRF token protection | ✅ Pwned | [📝](./writeups/clickjacking/1_basic_clickjacking_with_CSRF_token_protection/README.md) |
 | Apprentice | Clickjacking with form input data prefilled from a URL parameter | ✅ Pwned | [📝](./writeups/clickjacking/2_clickjacking_with_form_input_data_prefilled_from_a_URL_parameter/README.md) |
-| Apprentice | Clickjacking with a frame buster script | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Clickjacking with a frame buster script | ✅ Pwned | [📝](./writeups/clickjacking/3_clickjacking_with_a_frame_buster_script/README.md) |
 | Practitioner | Exploiting clickjacking vulnerability to trigger DOM-based XSS | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Multistep clickjacking | ⬜ Not Pwned | [📝](#) |
 </details>
