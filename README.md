@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-16%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-17%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -13,7 +13,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
 | [1. SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress |
-| [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 9 / 30 | In Progress |
+| [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-xss-30-labs) | 9 / 30 | In Progress |
 | [3. CSRF](#3-cross-site-request-forgery-12-labs) | 1 / 12 | In Progress |
 | [4. Clickjacking](#4-clickjacking-5-labs) | 3 / 5 | In Progress |
 | [5. DOM-based vulnerabilities](#5-dom-based-vulnerabilities-7-labs) | 0 / 7 | Not Started |
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **16 / 251** | **6%** |
+| **Total Academy Progress** | **17 / 251** | **6%** |
 
 ---
 
@@ -161,7 +161,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
 | Apprentice | CORS vulnerability with basic origin reflection | ✅ Pwned | [📝](./writeups/cors/1_CORS_vulnerability_with_basic_origin_reflection/README.md) |
-| Apprentice | CORS vulnerability with trusted null origin | ⬜ Not Pwned | [📝](#) |
+| Apprentice | CORS vulnerability with trusted null origin | ✅ Pwned | [📝](./writeups/cors/2_CORS_vulnerability_with_trusted_null_origin/README.md) |
 | Practitioner | CORS vulnerability with trusted insecure protocols | ⬜ Not Pwned | [📝](#) |
 </details>
 
