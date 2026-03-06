@@ -3,32 +3,42 @@ name: Auto-Update Lab Progress
 on:
   push:
     branches:
-      - main # Change this to 'master' if that is your default branch
+      - main
     paths:
-      - 'README.md' # Only runs when you modify the README
+      - "writeups/**"
+      - "scripts/update_progress.py"
 
 permissions:
-  contents: write # Grants the bot permission to push the updated file
+  contents: write
 
 jobs:
-  update-dashboard:
+  update-readme:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          python-version: '3.x'
+          fetch-depth: 0
 
-      - name: Run Auto-Updater
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run progress updater
         run: python scripts/update_progress.py
 
-      - name: Commit and Push Changes
+      - name: Commit README changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update progress metrics"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No README changes"
+          else
+            git commit -m "Auto-update lab progress"
+            git push
+          fi
