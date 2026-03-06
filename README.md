@@ -8,18 +8,18 @@ A systematic roadmap to mastering web application security. This repository trac
 
 ---
 
-## Progress Dashboard
+## 📊 Progress Dashboard
 
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
-| [1. SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress|
-| [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 9 / 30 | In Progress|
-| [3. CSRF](#3-cross-site-request-forgery-12-labs) | 1 / 12 | In Progress|
-| [4. Clickjacking](#4-clickjacking-5-labs) | 3 / 5 | In Progress|
-| [5. DOM-based vulnerabilities](#5-dom-based-vulnerabilities-7-labs) | 0 / 7 | Not Started|
-| [6. CORS](#6-cross-origin-resource-sharing-cors-3-labs) | 1 / 3 | In Progress|
-| [7. XXE Injection](#7-xml-external-entity-xxe-injection-9-labs) | 0 / 9 | Not Started|
-| [8. SSRF](#8-server-side-request-forgery-ssrf-7-labs) | 0 / 7 | Not Started|
+| [1. SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress |
+| [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 9 / 30 | In Progress |
+| [3. CSRF](#3-cross-site-request-forgery-12-labs) | 1 / 12 | In Progress |
+| [4. Clickjacking](#4-clickjacking-5-labs) | 3 / 5 | In Progress |
+| [5. DOM-based vulnerabilities](#5-dom-based-vulnerabilities-7-labs) | 0 / 7 | Not Started |
+| [6. CORS](#6-cross-origin-resource-sharing-cors-3-labs) | 1 / 3 | In Progress |
+| [7. XXE Injection](#7-xml-external-entity-xxe-injection-9-labs) | 0 / 9 | Not Started |
+| [8. SSRF](#8-server-side-request-forgery-ssrf-7-labs) | 0 / 7 | Not Started |
 | [9. HTTP request smuggling](#9-http-request-smuggling-21-labs) | 0 / 21 | Not Started |
 | [10. OS command injection](#10-os-command-injection-5-labs) | 0 / 5 | Not Started |
 | [11. Server-side template injection](#11-server-side-template-injection-7-labs) | 0 / 7 | Not Started |
@@ -44,9 +44,10 @@ A systematic roadmap to mastering web application security. This repository trac
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
 | **Total Academy Progress** | **16 / 251** | **6%** |
+
 ---
 
-## Vulnerability List & Lab Tracker
+## 🛡️ Vulnerability List & Lab Tracker
 
 <details>
 <summary><b>1. SQL Injection (18 Labs) </b></summary>
@@ -205,4 +206,333 @@ A systematic roadmap to mastering web application security. This repository trac
 | Practitioner | Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Exploiting HTTP request smuggling to reveal front-end request rewriting | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Exploiting HTTP request smuggling to capture other users' requests | ⬜ Not Pwned | [📝](#) |
-| Practitioner | Exploiting HTTP request smuggling to deliver reflected XSS | ⬜ Not Pwn
+| Practitioner | Exploiting HTTP request smuggling to deliver reflected XSS | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Response queue poisoning via H2.TE request smuggling | ⬜ Not Pwned | [📝](#) |
+| Practitioner | H2.CL request smuggling | ⬜ Not Pwned | [📝](#) |
+| Practitioner | HTTP/2 request smuggling via CRLF injection | ⬜ Not Pwned | [📝](#) |
+| Practitioner | HTTP/2 request splitting via CRLF injection | ⬜ Not Pwned | [📝](#) |
+| Expert | 0.CL request smuggling | ⬜ Not Pwned | [📝](#) |
+| Practitioner | CL.0 request smuggling | ⬜ Not Pwned | [📝](#) |
+| Practitioner | HTTP request smuggling, basic CL.TE vulnerability | ⬜ Not Pwned | [📝](#) |
+| Practitioner | HTTP request smuggling, basic TE.CL vulnerability | ⬜ Not Pwned | [📝](#) |
+| Practitioner | HTTP request smuggling, obfuscating the TE header | ⬜ Not Pwned | [📝](#) |
+| Expert | Exploiting HTTP request smuggling to perform web cache poisoning | ⬜ Not Pwned | [📝](#) |
+| Expert | Exploiting HTTP request smuggling to perform web cache deception | ⬜ Not Pwned | [📝](#) |
+| Expert | Bypassing access controls via HTTP/2 request tunnelling | ⬜ Not Pwned | [📝](#) |
+| Expert | Web cache poisoning via HTTP/2 request tunnelling | ⬜ Not Pwned | [📝](#) |
+| Expert | Client-side desync | ⬜ Not Pwned | [📝](#) |
+| Expert | Server-side pause-based request smuggling | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>10. OS command injection (5 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | OS command injection, simple case | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Blind OS command injection with time delays | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Blind OS command injection with output redirection | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Blind OS command injection with out-of-band interaction | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Blind OS command injection with out-of-band data exfiltration | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>11. Server-side template injection (7 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Practitioner | Basic server-side template injection | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Basic server-side template injection (code context) | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Server-side template injection using documentation | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Server-side template injection in an unknown language with a documented exploit | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Server-side template injection with information disclosure via user-supplied objects | ⬜ Not Pwned | [📝](#) |
+| Expert | Server-side template injection in a sandboxed environment | ⬜ Not Pwned | [📝](#) |
+| Expert | Server-side template injection with a custom exploit | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>12. Path traversal (6 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | File path traversal, simple case | ⬜ Not Pwned | [📝](#) |
+| Practitioner | File path traversal, traversal sequences blocked with absolute path bypass | ⬜ Not Pwned | [📝](#) |
+| Practitioner | File path traversal, traversal sequences stripped non-recursively | ⬜ Not Pwned | [📝](#) |
+| Practitioner | File path traversal, traversal sequences stripped with superfluous URL-decode | ⬜ Not Pwned | [📝](#) |
+| Practitioner | File path traversal, validation of start of path | ⬜ Not Pwned | [📝](#) |
+| Practitioner | File path traversal, validation of file extension with null byte bypass | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>13. Access control vulnerabilities (13 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Unprotected admin functionality | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Unprotected admin functionality with unpredictable URL | ⬜ Not Pwned | [📝](#) |
+| Apprentice | User role controlled by request parameter | ⬜ Not Pwned | [📝](#) |
+| Apprentice | User role can be modified in user profile | ⬜ Not Pwned | [📝](#) |
+| Apprentice | User ID controlled by request parameter | ⬜ Not Pwned | [📝](#) |
+| Apprentice | User ID controlled by request parameter, with unpredictable user IDs | ⬜ Not Pwned | [📝](#) |
+| Apprentice | User ID controlled by request parameter with data leakage in redirect | ⬜ Not Pwned | [📝](#) |
+| Apprentice | User ID controlled by request parameter with password disclosure | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Insecure direct object references | ⬜ Not Pwned | [📝](#) |
+| Practitioner | URL-based access control can be circumvented | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Method-based access control can be circumvented | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Multi-step process with no access control on one step | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Referer-based access control | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>14. Authentication (14 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Username enumeration via different responses | ⬜ Not Pwned | [📝](#) |
+| Apprentice | 2FA simple bypass | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Password reset broken logic | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Username enumeration via subtly different responses | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Username enumeration via response timing | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Broken brute-force protection, IP block | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Username enumeration via account lock | ⬜ Not Pwned | [📝](#) |
+| Practitioner | 2FA broken logic | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Brute-forcing a stay-logged-in cookie | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Offline password cracking | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Password reset poisoning via middleware | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Password brute-force via password change | ⬜ Not Pwned | [📝](#) |
+| Expert | Broken brute-force protection, multiple credentials per request | ⬜ Not Pwned | [📝](#) |
+| Expert | 2FA bypass using a brute-force attack | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>15. WebSockets (3 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Manipulating WebSocket messages to exploit vulnerabilities | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Cross-site WebSocket hijacking | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Manipulating the WebSocket handshake to exploit vulnerabilities | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>16. Web cache poisoning (13 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Practitioner | Web cache poisoning with an unkeyed header | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web cache poisoning with an unkeyed cookie | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web cache poisoning with multiple headers | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Targeted web cache poisoning using an unknown header | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web cache poisoning via an unkeyed query string | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web cache poisoning via an unkeyed query parameter | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Parameter cloaking | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web cache poisoning via a fat GET request | ⬜ Not Pwned | [📝](#) |
+| Practitioner | URL normalization | ⬜ Not Pwned | [📝](#) |
+| Expert | Web cache poisoning to exploit a DOM vulnerability via a cache with strict cacheability criteria | ⬜ Not Pwned | [📝](#) |
+| Expert | Combining web cache poisoning vulnerabilities | ⬜ Not Pwned | [📝](#) |
+| Expert | Cache key injection | ⬜ Not Pwned | [📝](#) |
+| Expert | Internal cache poisoning | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>17. Insecure deserialization (10 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Modifying serialized objects | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Modifying serialized data types | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Using application functionality to exploit insecure deserialization | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Arbitrary object injection in PHP | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting Java deserialization with Apache Commons | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting PHP deserialization with a pre-built gadget chain | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting Ruby deserialization using a documented gadget chain | ⬜ Not Pwned | [📝](#) |
+| Expert | Developing a custom gadget chain for Java deserialization | ⬜ Not Pwned | [📝](#) |
+| Expert | Developing a custom gadget chain for PHP deserialization | ⬜ Not Pwned | [📝](#) |
+| Expert | Using PHAR deserialization to deploy a custom gadget chain | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>18. Information disclosure (5 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Information disclosure in error messages | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Information disclosure on debug page | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Source code disclosure via backup files | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Authentication bypass via information disclosure | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Information disclosure in version control history | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>19. Business logic vulnerabilities (11 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Excessive trust in client-side controls | ⬜ Not Pwned | [📝](#) |
+| Apprentice | High-level logic vulnerability | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Inconsistent security controls | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Flawed enforcement of business rules | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Low-level logic flaw | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Inconsistent handling of exceptional input | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Weak isolation on dual-use endpoint | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Insufficient workflow validation | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Authentication bypass via flawed state machine | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Infinite money logic flaw | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Authentication bypass via encryption oracle | ⬜ Not Pwned | [📝](#) |
+| Expert | Bypassing access controls using email address parsing discrepancies | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>20. HTTP Host header attacks (7 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Basic password reset poisoning | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Host header authentication bypass | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web cache poisoning via ambiguous requests | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Routing-based SSRF | ⬜ Not Pwned | [📝](#) |
+| Practitioner | SSRF via flawed request parsing | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Host validation bypass via connection state attack | ⬜ Not Pwned | [📝](#) |
+| Expert | Password reset poisoning via dangling markup | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>21. OAuth authentication (6 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Authentication bypass via OAuth implicit flow | ⬜ Not Pwned | [📝](#) |
+| Practitioner | SSRF via OpenID dynamic client registration | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Forced OAuth profile linking | ⬜ Not Pwned | [📝](#) |
+| Practitioner | OAuth account hijacking via redirect_uri | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Stealing OAuth access tokens via an open redirect | ⬜ Not Pwned | [📝](#) |
+| Expert | Stealing OAuth access tokens via a proxy page | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>22. File upload vulnerabilities (7 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Remote code execution via web shell upload | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Web shell upload via Content-Type restriction bypass | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web shell upload via path traversal | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web shell upload via extension blacklist bypass | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Web shell upload via obfuscated file extension | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Remote code execution via polyglot web shell upload | ⬜ Not Pwned | [📝](#) |
+| Expert | Web shell upload via race condition | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>23. JWT (8 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | JWT authentication bypass via unverified signature | ⬜ Not Pwned | [📝](#) |
+| Apprentice | JWT authentication bypass via flawed signature verification | ⬜ Not Pwned | [📝](#) |
+| Practitioner | JWT authentication bypass via weak signing key | ⬜ Not Pwned | [📝](#) |
+| Practitioner | JWT authentication bypass via jwk header injection | ⬜ Not Pwned | [📝](#) |
+| Practitioner | JWT authentication bypass via jku header injection | ⬜ Not Pwned | [📝](#) |
+| Practitioner | JWT authentication bypass via kid header path traversal | ⬜ Not Pwned | [📝](#) |
+| Expert | JWT authentication bypass via algorithm confusion | ⬜ Not Pwned | [📝](#) |
+| Expert | JWT authentication bypass via algorithm confusion with no exposed key | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>24. Essential skills (2 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Practitioner | Discovering vulnerabilities quickly with targeted scanning | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Scanning non-standard data structures | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>25. Prototype pollution (10 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Practitioner | Client-side prototype pollution via browser APIs | ⬜ Not Pwned | [📝](#) |
+| Practitioner | DOM XSS via client-side prototype pollution | ⬜ Not Pwned | [📝](#) |
+| Practitioner | DOM XSS via an alternative prototype pollution vector | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Client-side prototype pollution via flawed sanitization | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Client-side prototype pollution in third-party libraries | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Privilege escalation via server-side prototype pollution | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Detecting server-side prototype pollution without polluted property reflection | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Bypassing flawed input filters for server-side prototype pollution | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Remote code execution via server-side prototype pollution | ⬜ Not Pwned | [📝](#) |
+| Expert | Exfiltrating sensitive data via server-side prototype pollution | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>26. GraphQL API vulnerabilities (5 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Accessing private GraphQL posts | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Accidental exposure of private GraphQL fields | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Finding a hidden GraphQL endpoint | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Bypassing GraphQL brute force protections | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Performing CSRF exploits over GraphQL | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>27. Race conditions (6 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Limit overrun race conditions | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Bypassing rate limits via race conditions | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Multi-endpoint race conditions | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Single-endpoint race conditions | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting time-sensitive vulnerabilities | ⬜ Not Pwned | [📝](#) |
+| Expert | Partial construction race conditions | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>28. NoSQL injection (4 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Detecting NoSQL injection | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Exploiting NoSQL operator injection to bypass authentication | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting NoSQL injection to extract data | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting NoSQL operator injection to extract unknown fields | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>29. API testing (5 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Exploiting an API endpoint using documentation | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting server-side parameter pollution in a query string | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Finding and exploiting an unused API endpoint | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting a mass assignment vulnerability | ⬜ Not Pwned | [📝](#) |
+| Expert | Exploiting server-side parameter pollution in a REST URL | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>30. Web LLM attacks (4 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Exploiting LLM APIs with excessive agency | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting vulnerabilities in LLM APIs | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Indirect prompt injection | ⬜ Not Pwned | [📝](#) |
+| Expert | Exploiting insecure output handling in LLMs | ⬜ Not Pwned | [📝](#) |
+</details>
+
+<details>
+<summary><b>31. Web cache deception (5 Labs) </b></summary>
+
+| Level | Lab Title | Status | Writeup |
+| :--- | :--- | :---: | :---: |
+| Apprentice | Exploiting path mapping for web cache deception | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting path delimiters for web cache deception | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting origin server normalization for web cache deception | ⬜ Not Pwned | [📝](#) |
+| Practitioner | Exploiting cache server normalization for web cache deception | ⬜ Not Pwned | [📝](#) |
+| Expert | Exploiting exact-match cache rules for web cache deception | ⬜ Not Pwned | [📝](#) |
+</details>
+
+---
