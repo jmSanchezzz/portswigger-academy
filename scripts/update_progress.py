@@ -7,16 +7,16 @@ WRITEUPS = "writeups"
 TOTAL_LABS = 251
 
 CATEGORY_MAP = {
-    "sql-injection": "SQL Injection",
-    "xss": "Cross-Site Scripting",
-    "csrf": "CSRF",
-    "clickjacking": "Clickjacking",
-    "dom-vulnerabilities": "DOM-based vulnerabilities",
-    "cors": "CORS",
-    "xxe": "XXE",
-    "ssrf": "SSRF",
-    "command-injection": "OS command injection"
-    
+    "sql-injection": "1. SQL Injection",
+    "xss": "2. Cross-Site Scripting (XSS)",
+    "csrf": "3. Cross-Site Request Forgery (CSRF)",
+    "clickjacking": "4. Clickjacking",
+    "dom-vulnerabilities": "5. DOM-based vulnerabilities",
+    "cors": "6. Cross-origin resource sharing (CORS)",
+    "xxe": "7. XML external entity (XXE) injection",
+    "ssrf": "8. Server-side request forgery (SSRF)",
+    "command-injection": "10. OS command injection",
+    "authentication": "14. Authentication"
 }
 
 def get_writeups():
@@ -116,3 +116,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
