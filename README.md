@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-14%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-15%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -15,7 +15,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [1. SQL Injection](#1-sql-injection-18-labs) | 2 / 18 | In Progress|
 | [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-30-labs) | 9 / 30 | In Progress|
 | [3. CSRF](#3-cross-site-request-forgery-12-labs) | 1 / 12 | In Progress|
-| [4. Clickjacking](#4-clickjacking-5-labs) | 2 / 5 | In Progress|
+| [4. Clickjacking](#4-clickjacking-5-labs) | 3 / 5 | In Progress|
 | [5. DOM-based vulnerabilities](#5-dom-based-vulnerabilities-7-labs) | 0 / 7 | Not Started|
 | [6. CORS](#6-cross-origin-resource-sharing-cors-3-labs) | 0 / 3 | Not Started|
 | [7. XXE Injection](#7-xml-external-entity-xxe-injection-9-labs) | 0 / 9 | Not Started|
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **14 / 251** | **5%** |
+| **Total Academy Progress** | **15 / 251** | **5%** |
 ---
 
 ## Vulnerability List & Lab Tracker
