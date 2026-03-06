@@ -95,7 +95,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | CSRF with no defenses | ⬜ Not Pwned | [📝](#) |
+| Apprentice | CSRF with no defenses | ✅ Pwned | [📝](./writeups/csrf/1_CSRF_vulnerability_with_no_defenses/README.md) |
 | Practitioner | CSRF (Token validation depends on method) | ⬜ Not Pwned | [📝](#) |
 | Practitioner | CSRF (Token not tied to session) | ⬜ Not Pwned | [📝](#) |
 </details>
