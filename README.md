@@ -272,7 +272,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Apprentice | Unprotected admin functionality with unpredictable URL | ✅ Pwned | [📝](./writeups/access-control/2_unprotected_admin_functionality_with_unpredictable_URL/README.md) |
 | Apprentice | User role controlled by request parameter | ✅ Pwned | [📝](./writeups/access-control/3_user_role_controlled_by_request_parameter/README.md) |
 | Apprentice | User role can be modified in user profile | ✅ Pwned | [📝](./writeups/access-control/4_user_role_can_be_modified_in_user_profile/README.md) |
-| Apprentice | User ID controlled by request parameter | ⬜ Not Pwned | [📝](#) |
+| Apprentice | User ID controlled by request parameter | ✅ Pwned | [📝](./writeups/access-control/5_user_id_controlled_by_request_parameter/README.md) |
 | Apprentice | User ID controlled by request parameter, with unpredictable user IDs | ⬜ Not Pwned | [📝](#) |
 | Apprentice | User ID controlled by request parameter with data leakage in redirect | ⬜ Not Pwned | [📝](#) |
 | Apprentice | User ID controlled by request parameter with password disclosure | ⬜ Not Pwned | [📝](#) |
