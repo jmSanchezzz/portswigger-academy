@@ -6,7 +6,6 @@ WRITEUPS = "writeups"
 
 TOTAL_LABS = 251
 
-# BUG FIX 1: Added path-traversal to the map!
 CATEGORY_MAP = {
     "sql-injection": "1. SQL Injection",
     "xss": "2. Cross-Site Scripting (XSS)",
@@ -19,7 +18,6 @@ CATEGORY_MAP = {
     "os-command-injection": "10. OS command injection",
     "path-traversal": "12. Path traversal", 
     "authentication": "14. Authentication"
-    # Remember to add future folders here (e.g., "websockets": "15. WebSockets")
 }
 
 def get_writeups():
@@ -123,3 +121,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
