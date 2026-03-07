@@ -23,7 +23,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [9. HTTP request smuggling](#9-http-request-smuggling-21-labs) | 0 / 21 | Not Started |
 | [10. OS command injection](#10-os-command-injection-5-labs) | 1 / 5 | In Progress |
 | [11. Server-side template injection](#11-server-side-template-injection-7-labs) | 0 / 7 | Not Started |
-| [12. Path traversal](#12-path-traversal-6-labs) | 0 / 6 | Not Started |
+| [12. Path traversal](#12-path-traversal-6-labs) | 1 / 6 | In Progress |
 | [13. Access control vulnerabilities](#13-access-control-vulnerabilities-13-labs) | 0 / 13 | Not Started |
 | [14. Authentication](#14-authentication-14-labs) | 0 / 14 | Not Started |
 | [15. WebSockets](#15-websockets-3-labs) | 0 / 3 | Not Started |
