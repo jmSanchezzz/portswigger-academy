@@ -84,8 +84,8 @@ A systematic roadmap to mastering web application security. This repository trac
 | Apprentice | DOM XSS in `document.write` sink using source `location.search` | ✅ Pwned | [📝](./writeups/xss/3_DOM_XSS_in_document.write_sink_using_source_location.search/README.md) |
 | Apprentice | DOM XSS in `innerHTML` sink using source `location.search` | ✅ Pwned | [📝](./writeups/xss/4_DOM_XSS_in_innerHTML_sink_using_source_location.search/README.md) |
 | Apprentice | DOM XSS in jQuery anchor `href` attribute sink using `location.search` source |  ✅ Pwned | [📝](./writeups/xss/5_DOM_XSS_in_jQuery_anchor_href_attribute_sink_using_location.search_source/README.md) |
-| Apprentice | DOM XSS in jQuery selector sink using a hashchange event |✅ Pwned | [📝](./writeups/xss/6_DOM_XSS_in_jQuery_selector_sink_using_a_hashchange_event/README.md) |
-| Apprentice | Reflected XSS into attribute with angle brackets HTML-encoded |✅ Pwned | [📝](./writeups/xss/7_Reflected_XSS_into_attribute_with_angle_brackets_HTML-encoded/README.md) |
+| Apprentice | DOM XSS in jQuery selector sink using a hashchange event | ✅ Pwned | [📝](./writeups/xss/6_DOM_XSS_in_jQuery_selector_sink_using_a_hashchange_event/README.md) |
+| Apprentice | Reflected XSS into attribute with angle brackets HTML-encoded | ✅ Pwned | [📝](./writeups/xss/7_Reflected_XSS_into_attribute_with_angle_brackets_HTML-encoded/README.md) |
 | Apprentice | Stored XSS into anchor `href` attribute with double quotes HTML-encoded | ✅ Pwned | [📝](./writeups/xss/8_stored_XSS_into_anchor_href_attribute_with_double_quotes_HTML-encoded/README.md) |
 | Apprentice | Reflected XSS into a JavaScript string with angle brackets HTML encoded | ✅ Pwned | [📝](./writeups/xss/8_reflected_XSS_into_a_JavaScript_string_with_angle_brackets_HTML_encoded/README.md) |
 | Practitioner | DOM XSS in `document.write` sink using source `location.search` inside a select element | ⬜ Not Pwned | [📝](#) |
@@ -170,7 +170,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Exploiting XXE using external entities to retrieve files | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Exploiting XXE using external entities to retrieve files | ✅ Pwned | [📝](./writeups/xxe/1_exploiting_XXE_using_external_entities_to_retrieve_files/README.md) |
 | Apprentice | Exploiting XXE to perform SSRF attacks | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Blind XXE with out-of-band interaction | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Blind XXE with out-of-band interaction via XML parameter entities | ⬜ Not Pwned | [📝](#) |
