@@ -45,14 +45,15 @@ def update_lab_table(content, solved):
     for category, labs in solved.items():
         for lab in labs:
             try:
+                # Extracts the title after the first underscore
                 lab_title = lab.split("_", 1)[1].replace("_", " ")
             except IndexError:
                 continue 
+            pattern = re.compile(rf"^\|\s*(.*?)\s*\|\s*({re.escape(lab_title)})\s*\|.*?\|.*?\|.*$", re.MULTILINE | re.IGNORECASE)
             
-            pattern = rf"\| (.*?) \| ({re.escape(lab_title)}) \| .*? \| .*? \|"
             replacement = f"| \\1 | \\2 | ✅ Pwned | [📝](./writeups/{category}/{lab}/README.md) |"
             
-            content = re.sub(pattern, replacement, content)
+            content = pattern.sub(replacement, content)
             
     return content
 
@@ -115,3 +116,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
