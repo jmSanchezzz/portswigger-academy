@@ -15,7 +15,7 @@ CATEGORY_MAP = {
     "cors": "6. CORS",
     "xxe": "7. XXE Injection",
     "ssrf": "8. SSRF",
-    "command-injection": "10. OS command injection",
+    "os-command-injection": "10. OS command injection", # BUG FIX 1: Matches your folder name perfectly
     "authentication": "14. Authentication"
 }
 
@@ -45,12 +45,19 @@ def update_lab_table(content, solved):
     for category, labs in solved.items():
         for lab in labs:
             try:
-                # Extracts the title after the first underscore
-                lab_title = lab.split("_", 1)[1].replace("_", " ")
+                # Splits "1_OS_command_injection_simple_case" into words: ['OS', 'command', 'injection', 'simple', 'case']
+                words = lab.split("_", 1)[1].split("_")
             except IndexError:
                 continue 
-            pattern = re.compile(rf"^\|\s*(.*?)\s*\|\s*({re.escape(lab_title)})\s*\|.*?\|.*?\|.*$", re.MULTILINE | re.IGNORECASE)
             
+            # BUG FIX 2: Fuzzy matching! 
+            # This allows commas, hyphens, colons, or multiple spaces between words.
+            fuzzy_title = r"[\s,\.\-:]+".join(re.escape(word) for word in words)
+            
+            # The regex now uses the fuzzy title to hunt down the row
+            pattern = re.compile(rf"^\|\s*(.*?)\s*\|\s*({fuzzy_title})\s*\|.*?\|.*?\|.*$", re.MULTILINE | re.IGNORECASE)
+            
+            # \2 preserves the original exact title from the table (including its comma)
             replacement = f"| \\1 | \\2 | ✅ Pwned | [📝](./writeups/{category}/{lab}/README.md) |"
             
             content = pattern.sub(replacement, content)
@@ -116,4 +123,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
