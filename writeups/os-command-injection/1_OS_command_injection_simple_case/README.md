@@ -1,7 +1,7 @@
 # OS command injection, simple case
 
 ## 1. Lab Information
-**Title:** OS command injection, simple case  
+**Title:** OS command injection, simple case   
 **Difficulty Level:** Apprentice  
 **Vulnerability Category:** OS Command Injection
 
