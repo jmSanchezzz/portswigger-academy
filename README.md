@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-23%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-24%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -24,7 +24,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [10. OS command injection](#10-os-command-injection-5-labs) | 1 / 5 | In Progress |
 | [11. Server-side template injection](#11-server-side-template-injection-7-labs) | 0 / 7 | Not Started |
 | [12. Path traversal](#12-path-traversal-6-labs) | 1 / 6 | In Progress |
-| [13. Access control vulnerabilities](#13-access-control-vulnerabilities-13-labs) | 0 / 13 | Not Started |
+| [13. Access control vulnerabilities](#13-access-control-vulnerabilities-13-labs) | 1 / 13 | In Progress |
 | [14. Authentication](#14-authentication-14-labs) | 0 / 14 | Not Started |
 | [15. WebSockets](#15-websockets-3-labs) | 0 / 3 | Not Started |
 | [16. Web cache poisoning](#16-web-cache-poisoning-13-labs) | 0 / 13 | Not Started |
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **23 / 251** | **9%** |
+| **Total Academy Progress** | **24 / 251** | **9%** |
 
 ---
 
@@ -268,7 +268,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Unprotected admin functionality | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Unprotected admin functionality | ✅ Pwned | [📝](./writeups/access-control/1_unprotected_admin_functionality/README.md) |
 | Apprentice | Unprotected admin functionality with unpredictable URL | ⬜ Not Pwned | [📝](#) |
 | Apprentice | User role controlled by request parameter | ⬜ Not Pwned | [📝](#) |
 | Apprentice | User role can be modified in user profile | ⬜ Not Pwned | [📝](#) |
