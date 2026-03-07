@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-20%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-21%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -19,7 +19,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [5. DOM-based vulnerabilities](#5-dom-based-vulnerabilities-7-labs) | 0 / 7 | Not Started |
 | [6. CORS](#6-cors-3-labs) | 2 / 3 | In Progress |
 | [7. XXE Injection](#7-xxe-injection-9-labs) | 2 / 9 | In Progress |
-| [8. SSRF](#8-ssrf-7-labs) | 1 / 7 | In Progress |
+| [8. SSRF](#8-ssrf-7-labs) | 2 / 7 | In Progress |
 | [9. HTTP request smuggling](#9-http-request-smuggling-21-labs) | 0 / 21 | Not Started |
 | [10. OS command injection](#10-os-command-injection-5-labs) | 0 / 5 | Not Started |
 | [11. Server-side template injection](#11-server-side-template-injection-7-labs) | 0 / 7 | Not Started |
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **20 / 251** | **7%** |
+| **Total Academy Progress** | **21 / 251** | **8%** |
 
 ---
 
@@ -187,7 +187,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
 | Apprentice | Basic SSRF against the local server | ✅ Pwned | [📝](./writeups/ssrf/1_basic_SSRF_against_the_local_server/README.md) |
-| Apprentice | Basic SSRF against another back-end system | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Basic SSRF against another back-end system | ✅ Pwned | [📝](./writeups/ssrf/2_basic_SSRF_against_another_back-end_system/README.md) |
 | Practitioner | Blind SSRF with out-of-band detection | ⬜ Not Pwned | [📝](#) |
 | Practitioner | SSRF with blacklist-based input filter | ⬜ Not Pwned | [📝](#) |
 | Practitioner | SSRF with filter bypass via open redirection vulnerability | ⬜ Not Pwned | [📝](#) |
