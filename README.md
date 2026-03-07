@@ -21,7 +21,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [7. XXE Injection](#7-xxe-injection-9-labs) | 2 / 9 | In Progress |
 | [8. SSRF](#8-ssrf-7-labs) | 2 / 7 | In Progress |
 | [9. HTTP request smuggling](#9-http-request-smuggling-21-labs) | 0 / 21 | Not Started |
-| [10. OS command injection](#10-os-command-injection-5-labs) | 0 / 5 | Not Started |
+| [10. OS command injection](#10-os-command-injection-5-labs) | 1 / 5 | In Progress |
 | [11. Server-side template injection](#11-server-side-template-injection-7-labs) | 0 / 7 | Not Started |
 | [12. Path traversal](#12-path-traversal-6-labs) | 0 / 6 | Not Started |
 | [13. Access control vulnerabilities](#13-access-control-vulnerabilities-13-labs) | 0 / 13 | Not Started |
@@ -229,7 +229,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | OS command injection, simple case | ⬜ Not Pwned | [📝](#) |
+| Apprentice | OS command injection, simple case | ✅ Pwned | [📝](./writeups/os-command-injection/1_OS_command_injection_simple_case/README.md) |
 | Practitioner | Blind OS command injection with time delays | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Blind OS command injection with output redirection | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Blind OS command injection with out-of-band interaction | ⬜ Not Pwned | [📝](#) |
