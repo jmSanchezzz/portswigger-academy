@@ -255,7 +255,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | File path traversal, simple case | ✅ Pwned | [📝](./writeups/path-traversal/1 _file_path_traversal_simple_case/README.md) |
+| Apprentice | File path traversal, simple case | ✅ Pwned | [📝](./writeups/path-traversal/1_file_path_traversal_simple_case/README.md) |
 | Practitioner | File path traversal, traversal sequences blocked with absolute path bypass | ⬜ Not Pwned | [📝](#) |
 | Practitioner | File path traversal, traversal sequences stripped non-recursively | ⬜ Not Pwned | [📝](#) |
 | Practitioner | File path traversal, traversal sequences stripped with superfluous URL-decode | ⬜ Not Pwned | [📝](#) |
