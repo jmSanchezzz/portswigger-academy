@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-18%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-19%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -18,7 +18,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [4. Clickjacking](#4-clickjacking-5-labs) | 3 / 5 | In Progress |
 | [5. DOM-based vulnerabilities](#5-dom-based-vulnerabilities-7-labs) | 0 / 7 | Not Started |
 | [6. CORS](#6-cors-3-labs) | 2 / 3 | In Progress |
-| [7. XXE Injection](#7-xxe-injection-9-labs) | 1 / 9 | In Progress |
+| [7. XXE Injection](#7-xxe-injection-9-labs) | 2 / 9 | In Progress |
 | [8. SSRF](#8-ssrf-7-labs) | 0 / 7 | Not Started |
 | [9. HTTP request smuggling](#9-http-request-smuggling-21-labs) | 0 / 21 | Not Started |
 | [10. OS command injection](#10-os-command-injection-5-labs) | 0 / 5 | Not Started |
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **18 / 251** | **7%** |
+| **Total Academy Progress** | **19 / 251** | **7%** |
 
 ---
 
@@ -171,7 +171,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
 | Apprentice | Exploiting XXE using external entities to retrieve files | ✅ Pwned | [📝](./writeups/xxe/1_exploiting_XXE_using_external_entities_to_retrieve_files/README.md) |
-| Apprentice | Exploiting XXE to perform SSRF attacks | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Exploiting XXE to perform SSRF attacks | ✅ Pwned | [📝](./writeups/xxe/2_exploiting_XXE_to_perform_SSRF_attacks/README.md) |
 | Practitioner | Blind XXE with out-of-band interaction | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Blind XXE with out-of-band interaction via XML parameter entities | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Exploiting blind XXE to exfiltrate data using a malicious external DTD | ⬜ Not Pwned | [📝](#) |
