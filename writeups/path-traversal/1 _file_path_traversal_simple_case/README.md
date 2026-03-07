@@ -1,7 +1,7 @@
 # File path traversal, simple case
 
 ## 1. Lab Information
-**Title:** Lab: File path traversal, simple case  
+**Title:** Lab: File path traversal, simple case   
 **Difficulty Level:** Apprentice  
 **Vulnerability Category:** Directory Traversal (File Path Traversal)
 
