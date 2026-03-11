@@ -20,6 +20,7 @@ CATEGORY_MAP = {
     "access-control": "13. Access control vulnerabilities", 
     "authentication": "14. Authentication",
     "websockets": "15. WebSockets",
+    "insecure-deserialization": "17. Insecure deserialization",
 }
 
 def get_writeups():
@@ -123,5 +124,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
