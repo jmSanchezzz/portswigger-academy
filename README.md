@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-35%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-36%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -26,7 +26,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [12. Path traversal](#12-path-traversal-6-labs) | 1 / 6 | In Progress |
 | [13. Access control vulnerabilities](#13-access-control-vulnerabilities-13-labs) | 9 / 13 | In Progress |
 | [14. Authentication](#14-authentication-14-labs) | 3 / 14 | In Progress |
-| [15. WebSockets](#15-websockets-3-labs) | 0 / 3 | Not Started |
+| [15. WebSockets](#15-websockets-3-labs) | 1 / 3 | In Progress |
 | [16. Web cache poisoning](#16-web-cache-poisoning-13-labs) | 0 / 13 | Not Started |
 | [17. Insecure deserialization](#17-insecure-deserialization-10-labs) | 0 / 10 | Not Started |
 | [18. Information disclosure](#18-information-disclosure-5-labs) | 0 / 5 | Not Started |
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **35 / 251** | **13%** |
+| **Total Academy Progress** | **36 / 251** | **14%** |
 
 ---
 
@@ -309,7 +309,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Manipulating WebSocket messages to exploit vulnerabilities | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Manipulating WebSocket messages to exploit vulnerabilities | ✅ Pwned | [📝](./writeups/websockets/1_manipulating_websocket_messages_to_exploit_vulnerabilities/README.md) |
 | Practitioner | Cross-site WebSocket hijacking | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Manipulating the WebSocket handshake to exploit vulnerabilities | ⬜ Not Pwned | [📝](#) |
 </details>
