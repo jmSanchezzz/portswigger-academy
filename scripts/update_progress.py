@@ -17,9 +17,9 @@ CATEGORY_MAP = {
     "ssrf": "8. SSRF",
     "os-command-injection": "10. OS command injection",
     "path-traversal": "12. Path traversal", 
-    "access-control": "13. Access control vulnerabilities",
-    "websockets": "15. WebSockets"
-    "authentication": "14. Authentication"
+    "access-control": "13. Access control vulnerabilities", 
+    "authentication": "14. Authentication",
+    "websockets": "15. WebSockets",
 }
 
 def get_writeups():
@@ -123,4 +123,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
