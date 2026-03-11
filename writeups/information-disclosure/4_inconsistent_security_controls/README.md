@@ -1,7 +1,7 @@
 # Inconsistent security controls
 
 ## 1. Lab Information
-**Title:** Lab: Inconsistent security controls  
+**Title:** Lab: Inconsistent security controls   
 **Difficulty Level:** Apprentice  
 **Vulnerability Category:** Business Logic Vulnerabilities
 
