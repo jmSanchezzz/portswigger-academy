@@ -1,7 +1,7 @@
 # Excessive trust in client-side controls
 
 ## 1. Lab Information
-**Title:** Lab: Excessive trust in client-side controls  
+**Title:** Lab: Excessive trust in client-side controls   
 **Difficulty Level:** Apprentice  
 **Vulnerability Category:** Business Logic Vulnerabilities
 
