@@ -359,7 +359,6 @@ A systematic roadmap to mastering web application security. This repository trac
 | Apprentice | Information disclosure in error messages | ✅ Pwned | [📝](./writeups/information-disclosure/1_information_disclosure_in_error_messages/README.md) |
 | Apprentice | Information disclosure on debug page | ✅ Pwned | [📝](./writeups/information-disclosure/2_information_disclosure_on_debug_page/README.md) |
 | Apprentice | Source code disclosure via backup files | ✅ Pwned | [📝](./writeups/information-disclosure/3_source_code_disclosure_via_backup_files/README.md) |
-| Apprentice | Inconsistent security controls | ✅ Pwned | [📝](./writeups/business-logic-vulnerabilities/3_inconsistent_security_controls/README.md) |
 | Apprentice | Authentication bypass via information disclosure | ✅ Pwned | [📝](./writeups/information-disclosure/4_authentication_bypass_via_information_disclosure/README.md) |
 | Practitioner | Information disclosure in version control history | ⬜ Not Pwned | [📝](#) |
 </details>
