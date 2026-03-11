@@ -21,6 +21,7 @@ CATEGORY_MAP = {
     "authentication": "14. Authentication",
     "websockets": "15. WebSockets",
     "insecure-deserialization": "17. Insecure deserialization",
+    "information-disclosure": "18. Information disclosure",
 }
 def get_writeups():
     solved = {}
@@ -123,6 +124,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
