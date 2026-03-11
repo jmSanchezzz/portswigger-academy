@@ -22,7 +22,6 @@ CATEGORY_MAP = {
     "websockets": "15. WebSockets",
     "insecure-deserialization": "17. Insecure deserialization",
 }
-
 def get_writeups():
     solved = {}
     if not os.path.exists(WRITEUPS):
@@ -124,6 +123,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
