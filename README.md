@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-44%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-45%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **44 / 251** | **17%** |
+| **Total Academy Progress** | **45 / 251** | **17%** |
 
 ---
 
@@ -371,7 +371,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Apprentice | Excessive trust in client-side controls | ✅ Pwned | [📝](./writeups/business-logic-vulnerabilities/1_excessive_trust_in_client_side_controls/README.md) |
 | Apprentice | High-level logic vulnerability | ✅ Pwned | [📝](./writeups/business-logic-vulnerabilities/2_high-level_logic_vulnerability/README.md) |
 | Apprentice | Inconsistent security controls | ✅ Pwned | [📝](./writeups/business-logic-vulnerabilities/3_inconsistent_security_controls/README.md) |
-| Apprentice | Flawed enforcement of business rules | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Flawed enforcement of business rules | ✅ Pwned | [📝](./writeups/business-logic-vulnerabilities/4_flawed_enforcement_of_business_rules/README.md) |
 | Practitioner | Low-level logic flaw | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Inconsistent handling of exceptional input | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Weak isolation on dual-use endpoint | ⬜ Not Pwned | [📝](#) |
