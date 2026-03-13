@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-47%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-48%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **47 / 251** | **18%** |
+| **Total Academy Progress** | **48 / 251** | **19%** |
 
 ---
 
@@ -401,7 +401,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Authentication bypass via OAuth implicit flow | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Authentication bypass via OAuth implicit flow | ✅ Pwned | [📝](./writeups/oauth-authentication/1_authentication_bypass_via_oauth_implicit_flow/README.md) |
 | Practitioner | SSRF via OpenID dynamic client registration | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Forced OAuth profile linking | ⬜ Not Pwned | [📝](#) |
 | Practitioner | OAuth account hijacking via redirect_uri | ⬜ Not Pwned | [📝](#) |
