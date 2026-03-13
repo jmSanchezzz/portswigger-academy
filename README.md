@@ -414,7 +414,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Remote code execution via web shell upload | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Remote code execution via web shell upload | ✅ Pwned | [📝](./writeups/file-upload-vulnerabilities/1_remote_code_execution_via_web_shell_upload/README.md) |
 | Apprentice | Web shell upload via Content-Type restriction bypass | ✅ Pwned | [📝](./writeups/file-upload-vulnerabilities/2_web_shell_upload_via_content_type_restriction_bypass/README.md) |
 | Practitioner | Web shell upload via path traversal | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Web shell upload via extension blacklist bypass | ⬜ Not Pwned | [📝](#) |
