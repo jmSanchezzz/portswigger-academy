@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker
 
-[![Overall Progress](https://img.shields.io/badge/Progress-49%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-50%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -43,7 +43,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **49 / 251** | **19%** |
+| **Total Academy Progress** | **50 / 251** | **19%** |
 
 ---
 
@@ -415,7 +415,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
 | Apprentice | Remote code execution via web shell upload | ⬜ Not Pwned | [📝](#) |
-| Apprentice | Web shell upload via Content-Type restriction bypass | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Web shell upload via Content-Type restriction bypass | ✅ Pwned | [📝](./writeups/file-upload-vulnerabilities/2_web_shell_upload_via_content_type_restriction_bypass/README.md) |
 | Practitioner | Web shell upload via path traversal | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Web shell upload via extension blacklist bypass | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Web shell upload via obfuscated file extension | ⬜ Not Pwned | [📝](#) |
