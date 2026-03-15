@@ -427,7 +427,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | JWT authentication bypass via unverified signature | ✅ Pwned | [📝](./writeups/jwt-vulnerabilities/1_JWT_authentication_bypass_via_unverified_signature/README.md) |
+| Apprentice | JWT authentication bypass via unverified signature | ✅ Pwned | [📝](./writeups/jwt/1_JWT_authentication_bypass_via_unverified_signature/README.md) |
 | Apprentice | JWT authentication bypass via flawed signature verification | ⬜ Not Pwned | [📝](#) |
 | Practitioner | JWT authentication bypass via weak signing key | ⬜ Not Pwned | [📝](#) |
 | Practitioner | JWT authentication bypass via jwk header injection | ⬜ Not Pwned | [📝](#) |
