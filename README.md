@@ -1,5 +1,5 @@
 # PortSwigger Web Security Academy - Lab Tracker  
-[![Overall Progress](https://img.shields.io/badge/Progress-51%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-52%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -42,7 +42,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **51 / 251** | **20%** |
+| **Total Academy Progress** | **52 / 251** | **20%** |
 
 ---
 
@@ -428,7 +428,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
 | Apprentice | JWT authentication bypass via unverified signature | ✅ Pwned | [📝](./writeups/jwt/1_JWT_authentication_bypass_via_unverified_signature/README.md) |
-| Apprentice | JWT authentication bypass via flawed signature verification | ⬜ Not Pwned | [📝](#) |
+| Apprentice | JWT authentication bypass via flawed signature verification | ✅ Pwned | [📝](./writeups/jwt/2_JWT_authentication_bypass_via_flawed_signature_verification/README.md) |
 | Practitioner | JWT authentication bypass via weak signing key | ⬜ Not Pwned | [📝](#) |
 | Practitioner | JWT authentication bypass via jwk header injection | ⬜ Not Pwned | [📝](#) |
 | Practitioner | JWT authentication bypass via jku header injection | ⬜ Not Pwned | [📝](#) |
