@@ -38,7 +38,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [17. Insecure deserialization](#17-insecure-deserialization-10-labs) | 1 / 10 | In Progress |
 | [18. Information disclosure](#18-information-disclosure-5-labs) | 4 / 5 | In Progress |
 | [19. Business logic vulnerabilities](#19-business-logic-vulnerabilities-11-labs) | 4 / 11 | In Progress |
-| [20. HTTP Host header attacks](#20-http-host-header-attacks-7-labs) | 0 / 7 | Not Started |
+| [20. HTTP Host header attacks](#20-http-host-header-attacks-7-labs) | 1 / 7 | In Progress |
 | [21. OAuth authentication](#21-oauth-authentication-6-labs) | 1 / 6 | In Progress |
 | [22. File upload vulnerabilities](#22-file-upload-vulnerabilities-7-labs) | 0 / 7 | Not Started |
 | [23. JWT](#23-jwt-8-labs) | 2 / 8 | In Progress |
@@ -393,7 +393,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Basic password reset poisoning | ✅ Pwned | [📝](./writeups/http-host-header-attacks/1_basic_password_reset_poisoning/README.md) |
+| Apprentice | Basic password reset poisoning | ✅ Pwned | [📝](./writeups/host-header-attacks/1_basic_password_reset_poisoning/README.md) |
 | Apprentice | Host header authentication bypass | ✅ Pwned | [📝](./writeups/http-host-header-attacks/2_host_header_authentication_bypass/README.md) |
 | Practitioner | Web cache poisoning via ambiguous requests | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Routing-based SSRF | ⬜ Not Pwned | [📝](#) |
