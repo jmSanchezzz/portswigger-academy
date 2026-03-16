@@ -50,7 +50,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 1 / 5 | In Progress |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 1 / 4 | In Progress |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 1 / 5 | In Progress |
-| **Total Academy Progress** | **60 / 251** | **23%** |
+| **Total Academy Progress** | **60 / 270** | **23%** |
 
 
 ## Vulnerability List & Lab Tracker
