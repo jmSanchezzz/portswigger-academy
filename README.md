@@ -1,4 +1,5 @@
 # PortSwigger Web Security Academy - Lab Tracker  
+
 [![Overall Progress](https://img.shields.io/badge/Progress-59%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
@@ -6,7 +7,36 @@
 A systematic roadmap to mastering web application security. This repository tracks my hands-on journey through the PortSwigger Academy, documenting every vulnerability pwned and every technique learned.
 
 ---
+---
 
+## Level Progress
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="300">
+        <br>
+        <h2>🟢 59 of 59</h2>
+        <h3><b>Apprentice</b></h3>
+        <br>
+      </td>
+      <td align="center" width="300">
+        <br>
+        <h2>⚪ 0 of 172</h2>
+        <h3><b>Practitioner</b></h3>
+        <br>
+      </td>
+      <td align="center" width="300">
+        <br>
+        <h2>⚪ 0 of 39</h2>
+        <h3><b>Expert</b></h3>
+        <br>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
 ## Progress Dashboard
 
 | Vulnerability Category | Completed | Status |
@@ -36,15 +66,14 @@ A systematic roadmap to mastering web application security. This repository trac
 | [23. JWT](#23-jwt-8-labs) | 2 / 8 | In Progress |
 | [24. Essential skills](#24-essential-skills-2-labs) | 0 / 2 | Not Started |
 | [25. Prototype pollution](#25-prototype-pollution-10-labs) | 0 / 10 | Not Started |
-| [26. GraphQL API vulnerabilities](#26-graphql-api-vulnerabilities-5-labs) | 0 / 5 | Not Started |
+| [26. GraphQL API vulnerabilities](#26-graphql-api-vulnerabilities-5-labs) | 1 / 5 | In Progress |
 | [27. Race conditions](#27-race-conditions-6-labs) | 1 / 6 | In Progress |
 | [28. NoSQL injection](#28-nosql-injection-4-labs) | 2 / 4 | In Progress |
 | [29. API testing](#29-api-testing-5-labs) | 1 / 5 | In Progress |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 1 / 4 | In Progress |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 1 / 5 | In Progress |
-| **Total Academy Progress** | **59 / 251** | **23%** |
+| **Total Academy Progress** | **60 / 251** | **23%** |
 
----
 
 ## Vulnerability List & Lab Tracker
 
