@@ -4,7 +4,7 @@ import re
 README = "README.md"
 WRITEUPS = "writeups"
 
-TOTAL_LABS = 251
+TOTAL_LABS = 270
 
 CATEGORY_MAP = {
     "sql-injection": "1. SQL Injection",
@@ -86,14 +86,14 @@ def update_dashboard(content, solved):
     percentage = int((total_solved / TOTAL_LABS) * 100)
 
     content = re.sub(
-        r"\*\*Total Academy Progress\*\* \| \*\*\d+ / 251\*\* \| \*\*\d+%\*\*",
-        f"**Total Academy Progress** | **{total_solved} / 251** | **{percentage}%**",
+        r"\*\*Total Academy Progress\*\* \| \*\*\d+ / 270\*\* \| \*\*\d+%\*\*",
+        f"**Total Academy Progress** | **{total_solved} / 270** | **{percentage}%**",
         content
     )
 
     content = re.sub(
-        r"badge/Progress-\d+%2F251",
-        f"badge/Progress-{total_solved}%2F251",
+        r"badge/Progress-\d+%2F270",
+        f"badge/Progress-{total_solved}%2F270",
         content
     )
     return content
