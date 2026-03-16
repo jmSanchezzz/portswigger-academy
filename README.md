@@ -38,7 +38,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [25. Prototype pollution](#25-prototype-pollution-10-labs) | 0 / 10 | Not Started |
 | [26. GraphQL API vulnerabilities](#26-graphql-api-vulnerabilities-5-labs) | 0 / 5 | Not Started |
 | [27. Race conditions](#27-race-conditions-6-labs) | 1 / 6 | In Progress |
-| [28. NoSQL injection](#28-nosql-injection-4-labs) | 0 / 4 | Not Started |
+| [28. NoSQL injection](#28-nosql-injection-4-labs) | 1 / 4 | In Progress |
 | [29. API testing](#29-api-testing-5-labs) | 0 / 5 | Not Started |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 0 / 4 | Not Started |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
@@ -493,7 +493,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Detecting NoSQL injection | ✅ Pwned | [📝](./writeups/no-sql-injection/1_detecting_nosql_injection/README.md) |
+| Apprentice | Detecting NoSQL injection | ✅ Pwned | [📝](./writeups/nosql-injection/1_detecting_nosql_injection/README.md) |
 | Apprentice | Exploiting NoSQL operator injection to bypass authentication | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Exploiting NoSQL injection to extract data | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Exploiting NoSQL operator injection to extract unknown fields | ⬜ Not Pwned | [📝](#) |
