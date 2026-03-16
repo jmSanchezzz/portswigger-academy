@@ -29,11 +29,11 @@ A systematic roadmap to mastering web application security. This repository trac
 | [16. Web cache poisoning](#16-web-cache-poisoning-13-labs) | 0 / 13 | Not Started |
 | [17. Insecure deserialization](#17-insecure-deserialization-10-labs) | 1 / 10 | In Progress |
 | [18. Information disclosure](#18-information-disclosure-5-labs) | 4 / 5 | In Progress |
-| [19. Business logic vulnerabilities](#19-business-logic-vulnerabilities-11-labs) | 0 / 11 | Not Started |
+| [19. Business logic vulnerabilities](#19-business-logic-vulnerabilities-11-labs) | 4 / 11 | In Progress |
 | [20. HTTP Host header attacks](#20-http-host-header-attacks-7-labs) | 0 / 7 | Not Started |
 | [21. OAuth authentication](#21-oauth-authentication-6-labs) | 0 / 6 | Not Started |
 | [22. File upload vulnerabilities](#22-file-upload-vulnerabilities-7-labs) | 0 / 7 | Not Started |
-| [23. JWT](#23-jwt-8-labs) | 0 / 8 | Not Started |
+| [23. JWT](#23-jwt-8-labs) | 2 / 8 | In Progress |
 | [24. Essential skills](#24-essential-skills-2-labs) | 0 / 2 | Not Started |
 | [25. Prototype pollution](#25-prototype-pollution-10-labs) | 0 / 10 | Not Started |
 | [26. GraphQL API vulnerabilities](#26-graphql-api-vulnerabilities-5-labs) | 0 / 5 | Not Started |
