@@ -39,7 +39,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [18. Information disclosure](#18-information-disclosure-5-labs) | 4 / 5 | In Progress |
 | [19. Business logic vulnerabilities](#19-business-logic-vulnerabilities-11-labs) | 4 / 11 | In Progress |
 | [20. HTTP Host header attacks](#20-http-host-header-attacks-7-labs) | 0 / 7 | Not Started |
-| [21. OAuth authentication](#21-oauth-authentication-6-labs) | 0 / 6 | Not Started |
+| [21. OAuth authentication](#21-oauth-authentication-6-labs) | 1 / 6 | In Progress |
 | [22. File upload vulnerabilities](#22-file-upload-vulnerabilities-7-labs) | 0 / 7 | Not Started |
 | [23. JWT](#23-jwt-8-labs) | 2 / 8 | In Progress |
 | [24. Essential skills](#24-essential-skills-2-labs) | 0 / 2 | Not Started |
@@ -50,7 +50,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 1 / 5 | In Progress |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 1 / 4 | In Progress |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 1 / 5 | In Progress |
-| **Total Academy Progress** | **60 / 270** | **23%** |
+| **Total Academy Progress** | **59 / 270** | **21%** |
 
 
 ## Vulnerability List & Lab Tracker
@@ -407,7 +407,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Authentication bypass via OAuth implicit flow | ✅ Pwned | [📝](./writeups/oauth-authentication/1_authentication_bypass_via_oauth_implicit_flow/README.md) |
+| Apprentice | Authentication bypass via OAuth implicit flow | ✅ Pwned | [📝](./writeups/oauth/1_authentication_bypass_via_oauth_implicit_flow/README.md) |
 | Practitioner | SSRF via OpenID dynamic client registration | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Forced OAuth profile linking | ⬜ Not Pwned | [📝](#) |
 | Practitioner | OAuth account hijacking via redirect_uri | ⬜ Not Pwned | [📝](#) |
