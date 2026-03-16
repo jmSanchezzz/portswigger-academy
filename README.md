@@ -1,5 +1,5 @@
 # PortSwigger Web Security Academy - Lab Tracker  
-[![Overall Progress](https://img.shields.io/badge/Progress-58%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-59%2F251%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -41,8 +41,8 @@ A systematic roadmap to mastering web application security. This repository trac
 | [28. NoSQL injection](#28-nosql-injection-4-labs) | 2 / 4 | In Progress |
 | [29. API testing](#29-api-testing-5-labs) | 1 / 5 | In Progress |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 1 / 4 | In Progress |
-| [31. Web cache deception](#31-web-cache-deception-5-labs) | 0 / 5 | Not Started |
-| **Total Academy Progress** | **58 / 251** | **23%** |
+| [31. Web cache deception](#31-web-cache-deception-5-labs) | 1 / 5 | In Progress |
+| **Total Academy Progress** | **59 / 251** | **23%** |
 
 ---
 
@@ -527,7 +527,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Exploiting path mapping for web cache deception | ⬜ Not Pwned | [📝](#) |
+| Apprentice | Exploiting path mapping for web cache deception | ✅ Pwned | [📝](./writeups/web-cache-deception/1_exploiting_path_mapping_for_web_cache_deception/README.md) |
 | Practitioner | Exploiting path delimiters for web cache deception | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Exploiting origin server normalization for web cache deception | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Exploiting cache server normalization for web cache deception | ⬜ Not Pwned | [📝](#) |
