@@ -5,39 +5,17 @@
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
 A systematic roadmap to mastering web application security. This repository tracks my hands-on journey through the PortSwigger Academy, documenting every vulnerability pwned and every technique learned.
-
----
----
-
-## Level Progress
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="300">
-        <br>
-        <h2>🟢 59 of 59</h2>
-        <h3><b>Apprentice</b></h3>
-        <br>
-      </td>
-      <td align="center" width="300">
-        <br>
-        <h2>⚪ 0 of 172</h2>
-        <h3><b>Practitioner</b></h3>
-        <br>
-      </td>
-      <td align="center" width="300">
-        <br>
-        <h2>⚪ 0 of 39</h2>
-        <h3><b>Expert</b></h3>
-        <br>
-      </td>
-    </tr>
-  </table>
-</div>
-
 ---
 ## Progress Dashboard
+<p align="left">
+
+<img src="https://img.shields.io/badge/Apprentice-59%2F59%20Labs-brightgreen?style=for-the-badge" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Practitioner-0%2F172%20Labs-lightgrey?style=for-the-badge" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Expert-0%2F39%20Labs-lightgrey?style=for-the-badge" />
+
+</p>
 
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
