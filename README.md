@@ -40,7 +40,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [19. Business logic vulnerabilities](#19-business-logic-vulnerabilities-11-labs) | 4 / 11 | In Progress |
 | [20. HTTP Host header attacks](#20-http-host-header-attacks-7-labs) | 1 / 7 | In Progress |
 | [21. OAuth authentication](#21-oauth-authentication-6-labs) | 1 / 6 | In Progress |
-| [22. File upload vulnerabilities](#22-file-upload-vulnerabilities-7-labs) | 1 / 7 | In Progress |
+| [22. File upload vulnerabilities](#22-file-upload-vulnerabilities-7-labs) | 2 / 7 | In Progress |
 | [23. JWT](#23-jwt-8-labs) | 2 / 8 | In Progress |
 | [24. Essential skills](#24-essential-skills-2-labs) | 0 / 2 | Not Started |
 | [25. Prototype pollution](#25-prototype-pollution-10-labs) | 0 / 10 | Not Started |
@@ -420,7 +420,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Level | Lab Title | Status | Writeup |
 | :--- | :--- | :---: | :---: |
-| Apprentice | Remote code execution via web shell upload | ✅ Pwned | [📝](./writeups/file-upload-vulnerabilities/1_remote_code_execution_via_web_shell_upload/README.md) |
+| Apprentice | Remote code execution via web shell upload | ✅ Pwned | [📝](./writeups/file-upload/1_remote_code_execution_via_web_shell_upload/README.md) |
 | Apprentice | Web shell upload via Content-Type restriction bypass | ✅ Pwned | [📝](./writeups/file-upload/2_web_shell_upload_via_content_type_restriction_bypass/README.md) |
 | Practitioner | Web shell upload via path traversal | ⬜ Not Pwned | [📝](#) |
 | Practitioner | Web shell upload via extension blacklist bypass | ⬜ Not Pwned | [📝](#) |
