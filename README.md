@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Lab Tracker  
 
-[![Overall Progress](https://img.shields.io/badge/Progress-60%2F270%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
+[![Overall Progress](https://img.shields.io/badge/Progress-61%2F270%20Labs-red?style=for-the-badge&logo=target)](https://portswigger.net/web-security)
 [![Burp Suite](https://img.shields.io/badge/Tools-BurpSuite%20%7C%20OWASP-orange?style=for-the-badge)](https://portswigger.net/burp)
 [![Status](https://img.shields.io/badge/Status-Initializing...-lightgrey?style=for-the-badge)]()
 
@@ -19,7 +19,7 @@ A systematic roadmap to mastering web application security. This repository trac
 
 | Vulnerability Category | Completed | Status |
 | :--- | :---: | :--- |
-| [1. SQL Injection](#1-sql-injection-18-labs) | 3 / 18 | In Progress |
+| [1. SQL Injection](#1-sql-injection-18-labs) | 4 / 18 | In Progress |
 | [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-xss-30-labs) | 9 / 30 | In Progress |
 | [3. CSRF](#3-csrf-12-labs) | 1 / 12 | In Progress |
 | [4. Clickjacking](#4-clickjacking-5-labs) | 3 / 5 | In Progress |
@@ -50,7 +50,7 @@ A systematic roadmap to mastering web application security. This repository trac
 | [29. API testing](#29-api-testing-5-labs) | 1 / 5 | In Progress |
 | [30. Web LLM attacks](#30-web-llm-attacks-4-labs) | 1 / 4 | In Progress |
 | [31. Web cache deception](#31-web-cache-deception-5-labs) | 1 / 5 | In Progress |
-| **Total Academy Progress** | **60 / 270** | **22%** |
+| **Total Academy Progress** | **61 / 270** | **22%** |
 
 
 ## Vulnerability List & Lab Tracker
